@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="JustifiedTextview">Existen dos descripciones con una cantidad de 6 respuestas numeradas del 1 hasta el 6.
+
+Si usted se define mejor con la descripción # 1 haga click en el círculo bajo este número, si su descripción es mucho más semejante a la segunda definición ubicada al frente de la primera haga click en el círculo bajo el # 6.
+
+Si usted considera que las dos definiciones marcan su personalidad escoja con un click los diferentes círculos centrales que están debajo de los números intermedios., dependiendo a que definición se incline su personalidad.
+
+Recuerde piense siempre en como usted se define.</string>
+
+    <string name="JustifiedTextHome">Conocerte a ti mismo y a las personas que te rodean es una forma de evolucionar en los cambios de comportamiento psicologico con tu entorno de convivencia personal y profesional</string>
+    <string name="JustifiedColoresComunicacion">A cada pregunta le corresponden 4 palabras según su forma de comunicarse.
+
+Primero escoja la palabra que más lo define el momento de comunicarse y haga click en el circulo bajo el # 3.
+
+Segundo escoja la siguiente palabra que más lo defina al momento de comunicarse y haga click en el círculo bajo el # 1.
+
+Tercero escoja las dos siguientes palabras y haga click en el círculo bajo el # 0.
+
+Piense en el significado de la palabra  y  no  tanto  en  sus  letras  o  como  suena.</string>
+
+    <string name="JustifiedCerebro">Cada pregunta supone una introducción del tipo:
+¿Cuál es mi capacidad para..? ó ¿Cuál es mi grado de desarrollo en…?.
+Si la respuesta a una pregunta es mucho, bastante, excelente, entonces elija con un click en el círculo bajo el # 4 ó 5; si es poco, débil, malo, elija con un click en el circulo bajo el # 1 ó 2; si es regular, bueno, medio, suficiente, entonces elija con un click en el círculo bajo el # 3.</string>
+
+    <string-array name="Spinner_Sexo">
+        <item>Sexo</item>
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Prefiero no decirlo</item>
+    </string-array>
+    <string-array name="Spinner_edad">
+        <item>Edad</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+    </string-array>
+</resources>
