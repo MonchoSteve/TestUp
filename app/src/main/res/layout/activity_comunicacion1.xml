@@ -101,7 +101,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
-                    android:id="@+id/Rbgc_Op"
+                    android:id="@+id/rbg_Comunicacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -110,6 +110,7 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -117,6 +118,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -124,6 +126,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -149,6 +152,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
+                    android:id="@+id/rbg_Comunicacion1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -157,6 +161,7 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion1_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -164,6 +169,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion1_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -171,6 +177,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion1_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -212,16 +219,14 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
-                        android:paddingEnd="14dp" />
+                        android:paddingEnd="10dp" />
 
                 </RadioGroup>
 
@@ -504,7 +509,7 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:paddingLeft="10dp"
-                        android:paddingEnd="14dp" />
+                        android:paddingEnd="11dp" />
 
                 </RadioGroup>
 

@@ -28,7 +28,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 5"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             android:gravity="center"
             android:text="Me gusta que las cosas sean variadas tengan colorido."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo3Txt2"
@@ -67,7 +67,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo3Txt3"
@@ -76,7 +76,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo3Txt4"
@@ -85,7 +85,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo3Txt5"
@@ -94,7 +94,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo3Txt6"
@@ -103,12 +103,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/Animodo3RadioGroup"
+            android:id="@+id/rbg_Animodo5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -116,32 +116,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/Animodo3Radio1"
+                android:id="@+id/rd5_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo3Radio2"
+                android:id="@+id/rd5_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo3Radio3"
+                android:id="@+id/rd5_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo3Radio4"
+                android:id="@+id/rd5_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo3Radio5"
+                android:id="@+id/rd5_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo3Radio6"
+                android:id="@+id/rd5_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -156,7 +156,7 @@
             android:gravity="center"
             android:text="Me gusta que las cosas sean exactas y precisas."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -183,7 +183,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 6"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -194,7 +194,7 @@
             android:gravity="center"
             android:text="Yo me describiría como activo."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -211,7 +211,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -219,7 +219,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -243,7 +243,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -251,12 +251,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/RbgP6_Op"
+            android:id="@+id/rbg_Animodo6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -264,32 +264,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/Radiog6"
+                android:id="@+id/rd6_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd6_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd6_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd6_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd6_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd6_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -304,7 +304,7 @@
             android:gravity="center"
             android:text="Yo me describiría como observador."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 

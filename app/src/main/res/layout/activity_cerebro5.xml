@@ -26,7 +26,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 9"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -121,13 +121,13 @@
                 android:layout_height="wrap_content"
                 android:text="Cuando hablas ¿gesticulas, mueves el cuerpo, miras a todas las personas?"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario3"
+                android:id="@+id/rbg_Cerebro9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -140,31 +140,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/Rb_Op2"
+                    android:id="@+id/rdcerebro9_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/formularios3"
+                    android:id="@+id/rdcerebro9_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radioforms3"
+                    android:id="@+id/rdcerebro9_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosfomr4"
+                    android:id="@+id/rdcerebro9_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosform5"
+                    android:id="@+id/rdcerebro9_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
@@ -194,7 +194,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 10"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -212,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView212"
                 app:layout_constraintHorizontal_bias="0.884"
@@ -225,7 +225,7 @@
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView256"
                 app:layout_constraintHorizontal_bias="0.914"
@@ -238,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView24"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -252,7 +252,7 @@
                 android:layout_marginEnd="16dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView23"
                 app:layout_constraintHorizontal_bias="0.98"
@@ -265,7 +265,7 @@
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -289,13 +289,13 @@
                 android:layout_height="wrap_content"
                 android:text="¿Puedes imaginarte en la situación de otra persona y entender como se siente?"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario5"
+                android:id="@+id/rbg_Cerebro10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -308,34 +308,34 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/radioform6_6"
+                    android:id="@+id/rdcerebro10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rdcerebro10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rdcerebro10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rdcerebro10_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op3"
+                    android:id="@+id/rdcerebro10_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="false" />
-
-                <RadioButton
-                    android:id="@+id/Rb_Op4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false" />
-
-                <RadioButton
-                    android:id="@+id/Rb_Op5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false" />
-
-                <RadioButton
-                    android:id="@+id/Rb_Op6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false" />
+                    />
 
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>

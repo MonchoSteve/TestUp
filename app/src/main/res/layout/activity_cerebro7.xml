@@ -127,7 +127,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario3"
+                android:id="@+id/rbg_Cerebro13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -140,31 +140,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/Rb_Op2"
+                    android:id="@+id/rdcerebro13_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/formularios3"
+                    android:id="@+id/rdcerebro13_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radioforms3"
+                    android:id="@+id/rdcerebro13_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosfomr4"
+                    android:id="@+id/rdcerebro13_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosform5"
+                    android:id="@+id/rdcerebro13_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
@@ -295,7 +295,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario5"
+                android:id="@+id/rbg_Cerebro14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -308,31 +308,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/radioform6_6"
+                    android:id="@+id/rdcerebro14_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op3"
+                    android:id="@+id/rdcerebro14_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op4"
+                    android:id="@+id/rdcerebro14_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op5"
+                    android:id="@+id/rdcerebro14_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op6"
+                    android:id="@+id/rdcerebro14_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />

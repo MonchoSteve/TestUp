@@ -28,7 +28,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 13"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:gravity="center"
             android:text="Lucho por ser ver sátil."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,12 +96,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/formulario1_13"
+            android:id="@+id/rbg_Animodo13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -109,32 +109,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioform13"
+                android:id="@+id/rd13_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd13_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd13_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd13_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd13_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd13_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -149,7 +149,7 @@
             android:gravity="center"
             android:text="Lucho por ser brevev, especifico y exacto."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -175,19 +175,19 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 14"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="10sp"
 
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:gravity="center"
             android:text="Me considero reservado."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -204,7 +204,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -212,7 +212,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -220,7 +220,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -228,7 +228,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -236,7 +236,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -244,12 +244,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/formulario1_14"
+            android:id="@+id/rbg_Animodo14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -257,32 +257,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioform14"
+                android:id="@+id/rd14_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd14_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd14_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd14_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd14_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd14_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -297,7 +297,7 @@
             android:gravity="center"
             android:text="Estoy preparado para actuar."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 

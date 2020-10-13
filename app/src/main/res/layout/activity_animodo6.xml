@@ -28,7 +28,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 11"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:gravity="center"
             android:text="Yo me describiría como evaluativo y lógico."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,11 +96,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
+            android:id="@+id/rbg_Animodo11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -108,31 +109,32 @@
             android:orientation="horizontal">
 
             <RadioButton
+                android:id="@+id/rd11_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd11_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd11_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd11_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd11_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd11_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -146,7 +148,7 @@
             android:gravity="center"
             android:text="Yoo me describiría como receptivo y complaciente"
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -172,7 +174,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 12"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -184,7 +186,7 @@
             android:gravity="center"
             android:text="Me gusta mirar lo que pasa a mi alrededor."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -201,7 +203,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -209,7 +211,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -217,7 +219,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -225,7 +227,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -233,7 +235,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -241,12 +243,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/formulario1_12"
+            android:id="@+id/rbg_Animodo12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -254,31 +256,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioform12"
+                android:id="@+id/rd12_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
+                android:id="@+id/rd12_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd12_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd12_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd12_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-
+                android:id="@+id/rd12_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 

@@ -4,12 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vack4Activity"></activity>
+        <activity android:name=".Cerebro.Cerebro12Activity"></activity>
+        <activity android:name=".Cerebro.Cerebro11Activity" />
+        <activity android:name=".Cerebro.Cerebro10Activity" />
+        <activity android:name=".Cerebro.Cerebro9Activity" />
+        <activity android:name=".Cerebro.Cerebro8Activity" />
+        <activity android:name=".Cerebro.Cerebro7Activity" />
+        <activity android:name=".Cerebro.Cerebro5Activity" />
+        <activity android:name=".Cerebro.Cerebro6Activity" />
+        <activity android:name=".Cerebro.Cerebro5Activity" />
+        <activity android:name=".Cerebro.Cerebro4Activity" />
+        <activity android:name=".Cerebro.Cerebro3Activity" />
+        <activity android:name=".Cerebro.Cerebro2Activity" />
+        <activity android:name=".Cerebro.Cerebro1Activity" />
+        <activity android:name=".Vack4Activity" />
         <activity android:name=".Vack3Activity" />
         <activity android:name=".Vack1Activity" />
         <activity android:name=".Vack2Activity" />

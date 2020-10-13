@@ -29,7 +29,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 1"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:gravity="center"
             android:text="Yo me describiría como de mentalidad abierta"
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/AnimodoTxt2"
@@ -65,7 +65,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/AnimodoTxt3"
@@ -74,7 +74,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/AnimodoTxt4"
@@ -83,7 +83,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/AnimodoTxt5"
@@ -92,7 +92,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/AnimodoTxt6"
@@ -101,12 +101,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/AnimodoRadioGroup"
+            android:id="@+id/rbg1_animodo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -114,40 +114,39 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/AnimodoRadio1"
+                android:id="@+id/rd_anim1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false" />
+                android:layout_height="wrap_content"/>
 
             <RadioButton
-                android:id="@+id/AnimodoRadio2"
+                android:id="@+id/rd_anim2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                />
 
             <RadioButton
-                android:id="@+id/AnimodoRadio3"
+                android:id="@+id/rd_anim3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                />
 
             <RadioButton
-                android:id="@+id/AnimodoRadio4"
+                android:id="@+id/rd_anim4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                />
 
             <RadioButton
-                android:id="@+id/AnimodoRadio5"
+                android:id="@+id/rd_anim5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                />
 
             <RadioButton
-                android:id="@+id/AnimodoRadio6"
+                android:id="@+id/rd_anim6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                />
 
         </RadioGroup>
 
@@ -185,7 +184,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 2"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -195,7 +194,7 @@
             android:gravity="center"
             android:text="Yo me describiría como reflexivo."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -214,7 +213,7 @@
                 android:layout_marginRight="20dp"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo1Txt2"
@@ -223,7 +222,7 @@
                 android:layout_marginRight="20dp"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo1Txt3"
@@ -232,7 +231,7 @@
                 android:layout_marginRight="20dp"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo1Txt4"
@@ -241,7 +240,7 @@
                 android:layout_marginRight="20dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo1Txt5"
@@ -250,7 +249,7 @@
                 android:layout_marginRight="20dp"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/Animodo1Txt6"
@@ -259,12 +258,12 @@
                 android:layout_marginRight="20dp"
                 android:text="6"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
         <RadioGroup
-            android:id="@+id/AnimodoRadioGroup1"
+            android:id="@+id/rbg_Animodo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -272,32 +271,32 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/Animodo1Radio1"
+                android:id="@+id/rd_animodo1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo1Radio2"
+                android:id="@+id/rd_animodo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo1Radio3"
+                android:id="@+id/rd_animodo3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo1Radio4"
+                android:id="@+id/rd_animodo4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo1Radio5"
+                android:id="@+id/rd_animodo5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <RadioButton
-                android:id="@+id/Animodo1Radio6"
+                android:id="@+id/rd_animodo6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -312,7 +311,7 @@
             android:gravity="center"
             android:text="Yo me describiría como orientado a la acción."
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 

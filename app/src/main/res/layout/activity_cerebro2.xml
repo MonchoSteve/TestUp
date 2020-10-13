@@ -26,7 +26,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 3"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textfomr3_1"
                 app:layout_constraintHorizontal_bias="0.884"
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textfomr3_2"
                 app:layout_constraintHorizontal_bias="0.914"
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textfomr3_3"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -84,7 +84,7 @@
                 android:layout_marginEnd="16dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textfomr3_4"
                 app:layout_constraintHorizontal_bias="0.98"
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -121,13 +121,13 @@
                 android:layout_height="wrap_content"
                 android:text="¿Crees que tu cuerpo y tu energía son parte de un todo mayor, de una fuerza superior, invisible, espiritual y eterna?"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario3"
+                android:id="@+id/rbg_Cerebro3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -140,31 +140,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/Rb_Op2"
+                    android:id="@+id/rdcerebro3_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/formularios3"
+                    android:id="@+id/rdcerebro3_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radioforms3"
+                    android:id="@+id/rdcerebro3_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosfomr4"
+                    android:id="@+id/rdcerebro3_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/radiosform5"
+                    android:id="@+id/rdcerebro3_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
@@ -194,7 +194,7 @@
             android:paddingBottom="20dp"
             android:text="  Pregunta Numero 4"
             android:textColor="@color/colorText"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -212,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView212"
                 app:layout_constraintHorizontal_bias="0.884"
@@ -225,7 +225,7 @@
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView256"
                 app:layout_constraintHorizontal_bias="0.914"
@@ -239,7 +239,7 @@
                 android:background="#f2f2f2"
                 android:text="3"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView24"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -253,7 +253,7 @@
                 android:layout_marginEnd="16dp"
                 android:text="4"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView23"
                 app:layout_constraintHorizontal_bias="0.98"
@@ -266,7 +266,7 @@
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.93"
@@ -290,13 +290,13 @@
                 android:layout_height="wrap_content"
                 android:text="¿Sabes contar chistes? ¿vives alegre, optimista y disfrutando, a pesar de todo?"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <RadioGroup
-                android:id="@+id/formulario5"
+                android:id="@+id/rbg_Cerebro4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -309,31 +309,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
-                    android:id="@+id/radioform6_6"
+                    android:id="@+id/rdcerebro4_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op3"
+                    android:id="@+id/rdcerebro4_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op4"
+                    android:id="@+id/rdcerebro4_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op5"
+                    android:id="@+id/rdcerebro4_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
 
                 <RadioButton
-                    android:id="@+id/Rb_Op6"
+                    android:id="@+id/rdcerebro4_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false" />
