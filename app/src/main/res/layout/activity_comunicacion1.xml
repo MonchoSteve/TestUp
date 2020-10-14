@@ -6,17 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Comunicacion.Comunicacion1Activity">
 
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="TEST COLORES DE LA COMUNICACION"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.912" />
 
     <LinearLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:background="#f2f2f2"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout26"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView15">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,10 +81,10 @@
                     android:layout_height="wrap_content"
                     android:text="3"
                     android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.48"
+                    app:layout_constraintHorizontal_bias="0.51"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,10 +94,10 @@
                     android:layout_height="wrap_content"
                     android:text="1"
                     android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.7"
+                    app:layout_constraintHorizontal_bias="0.74"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,10 +107,10 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintHorizontal_bias="0.95"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -171,7 +200,7 @@
                     <RadioButton
                         android:id="@+id/rdcomunicacion1_2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
@@ -203,6 +232,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
+                    android:id="@+id/rbg_Comunicacion2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="end"
@@ -210,23 +240,26 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingEnd="25dp" />
+
+                    <RadioButton
+                        android:id="@+id/rdcomunicacion2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingEnd="25dp" />
+
+                    <RadioButton
+                        android:id="@+id/rdcomunicacion2_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="10dp" />
+                        android:paddingEnd="12dp" />
 
                 </RadioGroup>
 
@@ -247,6 +280,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
+                    android:id="@+id/rbg_Comunicacion3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -255,6 +289,7 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion3_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -262,6 +297,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion3_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -269,6 +305,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
+                        android:id="@+id/rdcomunicacion3_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -278,6 +315,21 @@
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
         </LinearLayout>
 
 
@@ -287,6 +339,9 @@
         android:id="@+id/linearLayout26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
         android:background="#f2f2f2"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -332,7 +387,7 @@
                     android:textSize="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.48"
+                    app:layout_constraintHorizontal_bias="0.51"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -345,7 +400,7 @@
                     android:textSize="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.7"
+                    app:layout_constraintHorizontal_bias="0.73"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -358,7 +413,7 @@
                     android:textSize="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintHorizontal_bias="0.95"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -378,7 +433,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
-                    android:id="@+id/formulario2_1"
+                    android:id="@+id/rbg1_Comunicacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -387,7 +442,7 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_1"
+                        android:id="@+id/rd1comunicacion_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -395,7 +450,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_2"
+                        android:id="@+id/rd1comunicacion_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -403,7 +458,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_3"
+                        android:id="@+id/rd1comunicacion_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -429,7 +484,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
-                    android:id="@+id/formulario2_2"
+                    android:id="@+id/rbg2_Comunicacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -438,7 +493,7 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_4"
+                        android:id="@+id/rd2comunicacion_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -446,7 +501,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_5"
+                        android:id="@+id/rd2comunincacion_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -454,7 +509,7 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_6"
+                        android:id="@+id/rd2comunicacion_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -480,7 +535,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
-                    android:id="@+id/formulario2_3"
+                    android:id="@+id/rbg3_Comunicacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="end"
@@ -488,7 +543,14 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_7"
+                        android:id="@+id/rd3comunicacion_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingEnd="25dp" />
+
+                    <RadioButton
+                        android:id="@+id/rd3comunicacion_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -496,20 +558,12 @@
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_8"
+                        android:id="@+id/rd3comunicacion_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/radioformpre2_9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="11dp" />
+                        android:paddingEnd="0dp" />
 
                 </RadioGroup>
 
@@ -530,7 +584,7 @@
                     android:textSize="20sp" />
 
                 <RadioGroup
-                    android:id="@+id/formulario2_4"
+                    android:id="@+id/rbg4_Comunicacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -539,36 +593,48 @@
                     android:paddingEnd="10dp">
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_10"
+                        android:id="@+id/rd4comunicacion_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_11"
+                        android:id="@+id/rd4comunicacion_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
                     <RadioButton
-                        android:id="@+id/radioformpre2_12"
+                        android:id="@+id/rd4comunicacion_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
         </LinearLayout>
 
 
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -109,6 +109,7 @@ public class RegistroActivity extends AppCompatActivity {
         }
 
         if (em == true && cel == true){
+
             Intent intent = new Intent(RegistroActivity.this,AnimodoActivity.class);
             startActivity(intent);
             finish();

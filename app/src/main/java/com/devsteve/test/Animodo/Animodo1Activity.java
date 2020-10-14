@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import com.devsteve.test.R;
 
@@ -15,6 +16,7 @@ public class Animodo1Activity extends AppCompatActivity{
 
     private RadioGroup animodorbg, rbganimodo2;
     private RadioButton animodo1rad1, animodo1rad2, animodo1rad3, animodo1rad4, animodo1rad5, animodo1rad6;
+    private String radiotext1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,11 +26,21 @@ public class Animodo1Activity extends AppCompatActivity{
         animodorbg = findViewById(R.id.rbg1_animodo);
         rbganimodo2 = findViewById(R.id.rbg_Animodo2);
 
+        animodo1rad1 = findViewById(R.id.rd_anim1);
+        radiotext1 = animodo1rad1.getText().toString();
+        animodo1rad2 = findViewById(R.id.rd_anim2);
+        animodo1rad3 = findViewById(R.id.rd_anim3);
+        animodo1rad4 = findViewById(R.id.rd_anim4);
+        animodo1rad5 = findViewById(R.id.rd_anim5);
+        animodo1rad6 = findViewById(R.id.rd_anim6);
+
         animodorbg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 switch (i){
                     case R.id.rd_anim1:
+
+
 
                         break;
 
