@@ -24,7 +24,6 @@ public class Comunicacion6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comunicacion6);
 
-
         //Datos
         rbg_comunicacion4 = findViewById(R.id.rbg11_C1);
         rd_comunicacion4_1 = findViewById(R.id.rd11_C1_1);
