@@ -28,12 +28,11 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
             android:paddingBottom="10dp"
             android:text=" 29. Dentro de las relaciones conyugales, piensas que es mejor:"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
@@ -42,7 +41,7 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
             android:orientation="horizontal">
 
             <RadioGroup
-                android:id="@+id/formagroup4"
+                android:id="@+id/rbg_ACN24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -53,23 +52,23 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_ACN24_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="A. Que las decisiones provengan de los dos, aun cuando pudieran ser malas." />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN24_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="B. Que las decisiones las tome el mejor informado o más maduro." />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN24_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="false"
                     android:text="C. Que las decisiones las tome el hombre, porque es el responsable de la casa." />
 
             </RadioGroup>
@@ -99,7 +98,7 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
             android:paddingBottom="10dp"
             android:text=" 30. Un compañero de trabajo, se empeña en que estas en un error… y el tiene razón: "
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -112,7 +111,7 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
             android:orientation="horizontal">
 
             <RadioGroup
-                android:id="@+id/formagroup4_1"
+                android:id="@+id/rbg_ACN25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -123,24 +122,24 @@ tools:context=".ActitudNegociadora.ActitudNegociadora6Activity">
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_ACN25_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="A. Reconoces tu error y “humildemente” soportas sus ironías." />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN25_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="B. Repruebas su actitud y fortaleces un sentimiento de: “ya me las pagaras”." />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN25_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="C. Inicias una discusión, aduciendo que cualquiera se equivoca." />
 
             </RadioGroup>

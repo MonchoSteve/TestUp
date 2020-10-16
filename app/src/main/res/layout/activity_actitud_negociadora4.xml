@@ -32,21 +32,20 @@
                 android:paddingBottom="10dp"
                 android:text=" 22. En una reunión muy importante, uno de los asistentes se dirige a ti y discretamente te dice: “siempre hay una forma de llegar a un acuerdo” ¿Qué actitud asumirías?."
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:background="#F2F2F2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4"
+                    android:id="@+id/rbg_ACN10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -57,25 +56,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN10_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Sin falsos principios, aceptas ponerte “al lado de esta persona” suponiendo que esto te acarreará alguna ventaja personal." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN10_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Le dices tranquila y categóricamente, que no aceptas su proposición, aun a riesgos de “echar abajo” el negocio." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN10_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Sin hipocresías, aceptas la “proposición” y simplemente informas a los “involucrados del arreglo convenido” y que el negocio se cerro favorablemente" />
 
                 </RadioGroup>
@@ -104,20 +103,20 @@
                 android:paddingBottom="10dp"
                 android:text=" 23. En el trato con otras personas, sinceramente sueles ser:"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:background="#F2F2F2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -128,25 +127,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN11_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Sensible a su personalidad, carisma y a su poder de persuasión." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN11_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Mas bien sensible a su cultura, competitividad y astucia." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN11_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Sensible a la buena voluntad para llegar a un acuerdo, aun cuando sea ignorante en muchas cosas." />
 
                 </RadioGroup>
@@ -173,20 +172,20 @@
                 android:paddingBottom="10dp"
                 android:text=" 24. En una negociación relacionada con – ventas- de las cuales no estas bien informado, generalmente: "
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:background="#F2F2F2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -197,24 +196,24 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN12_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Sueles permanecer callado para no incurrir en errores que puedan demostrar tu ignorancia." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN12_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Te vales de tu “sentido común” y experiencia, para intervenir en la negociación." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN12_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:text="C. Apruebas de momento lo que dice tu interlocutor, aun cuando en el fondo estas “discorde”, con lo que dice, pero como no esta seguro, permaneces callado para inclusive “caerle bien”." />
 
                 </RadioGroup>

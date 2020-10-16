@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.RadioGroup;
 
 import com.devsteve.test.Cerebro.CerebroActivity;
+import com.devsteve.test.Comunicacion.ComunicacionActivity;
 import com.devsteve.test.R;
 
 public class Animodo7Activity extends AppCompatActivity {
@@ -46,27 +47,27 @@ public class Animodo7Activity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 switch(i){
                     case R.id.rd14_1:
-                        Intent intent = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent intent = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.rd14_2:
-                        Intent inte = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent inte = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(inte);
                         break;
                     case R.id.rd14_3:
-                        Intent intet = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent intet = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(intet);
                         break;
                     case R.id.rd14_4:
-                        Intent in = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent in = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(in);
                         break;
                     case R.id.rd14_5:
-                        Intent intentm = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent intentm = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(intentm);
                         break;
                     case R.id.rd14_6:
-                        Intent intem = new Intent(Animodo7Activity.this, CerebroActivity.class);
+                        Intent intem = new Intent(Animodo7Activity.this, ComunicacionActivity.class);
                         startActivity(intem);
                         break;
                 }

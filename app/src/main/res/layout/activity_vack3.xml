@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Vack3Activity">
+        tools:context=".Vack.Vack3Activity">
 
         <LinearLayout
             android:id="@+id/linearLayout14"
@@ -45,7 +45,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4"
+                    android:id="@+id/rbg_Vack7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -56,25 +56,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack7_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="a) Ver cómo lo hace otra persona" />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack7_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="b) Recibir instrucciones y aclararlas a fondo" />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack7_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="c) Que alguien te acompañe mientras lo haces" />
 
                 </RadioGroup>
@@ -116,6 +116,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_Vack8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -126,21 +127,22 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack8_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="a) Repetírtelo a ti mismo o a otra persona." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack8_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="b) Hacerte una imagen mental de ese número." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack8_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
@@ -170,7 +172,7 @@
                 android:background="@color/colorPrimaryDark"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text=" 11. Para adquirir una nueva habilidad prefieres:"
+                android:text=" 9. Tienes que realizar una presentación ante un grupo reducido de personas. Para sentirte cómodo prefieres:"
                 android:textColor="@color/colorText"
                 android:textSize="15sp" />
 
@@ -185,6 +187,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_Vack9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -195,26 +198,26 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack9_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
-                        android:text="a) Escuchar una descripción y hacer preguntas." />
+                        android:text="a) Tener claro el tono de voz y las palabras que vas a comunicar." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack9_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
-                        android:text="b) Hacerte una imagen mental de ese número." />
+                        android:text="b) Tener a mano diagramas y notas que puedas consultar durante la presentación." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack9_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
-                        android:text="c) Escribirlo o teclearlo varias veces." />
+                        android:text="c) Haber ensayado la presentación varias veces." />
 
                 </RadioGroup>
             </androidx.constraintlayout.widget.ConstraintLayout>

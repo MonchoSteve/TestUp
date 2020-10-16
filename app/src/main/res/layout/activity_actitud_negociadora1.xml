@@ -26,7 +26,7 @@
             android:paddingBottom="10dp"
             android:text=" 13. Serie No.1"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -40,8 +40,8 @@
             android:orientation="horizontal">
 
             <RadioGroup
-                android:id="@+id/formagroup4"
-                android:layout_width="wrap_content"
+                android:id="@+id/rbg_ACN1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -51,25 +51,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_ACN1_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="A. Comunicador. Persuasivo. Consistente" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN1_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="B. Comprensivo. Prudente. Tolerante" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN1_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="C. Estratégico. Adaptable. Flexible" />
 
             </RadioGroup>
@@ -96,7 +96,7 @@
             android:paddingBottom="10dp"
             android:text=" 14. Serie No. 2"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -110,7 +110,8 @@
             android:orientation="horizontal">
 
             <RadioGroup
-                android:layout_width="wrap_content"
+                android:id="@+id/rbg_ACN2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -120,25 +121,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_ACN2_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="A. Expresivo. Afable. Empático" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN2_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="B. Audaz. Seguro de si mismo. Combativo" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN2_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="C. Discreto. Categórico. Influyente" />
 
             </RadioGroup>
@@ -165,7 +166,7 @@
             android:paddingBottom="10dp"
             android:text=" 15. Serie No. 3"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -179,6 +180,7 @@
             android:orientation="horizontal">
 
             <RadioGroup
+                android:id="@+id/rbg_ACN3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -189,25 +191,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_ACN3_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="A. Sensato. Táctico. Ingenioso" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN3_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="B. Analítico. Buena memoria. Organizado" />
 
                 <RadioButton
+                    android:id="@+id/rd_ACN3_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="C. Practico. Conversador. Accesible" />
 
             </RadioGroup>

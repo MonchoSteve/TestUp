@@ -19,6 +19,7 @@ public class Comunicacion6Activity extends AppCompatActivity {
             ,rd_comunicacion10_1, rd_comunicacion10_2, rd_comunicacion10_3, rd_comunicacion11_1, rd_comunicacion11_2,
             rd_comunicacion11_3;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -243,10 +244,10 @@ public class Comunicacion6Activity extends AppCompatActivity {
             }
         });
         //Maestro
-        rbg_comunicacion10 = findViewById(R.id.rbg8_C3);
-        rd_comunicacion10_1 = findViewById(R.id.rd8_C3_1);
-        rd_comunicacion10_2 = findViewById(R.id.rd8_C3_2);
-        rd_comunicacion10_3 = findViewById(R.id.rd8_C3_3);
+        rbg_comunicacion10 = findViewById(R.id.rbg12_C3);
+        rd_comunicacion10_1 = findViewById(R.id.rd12_C3_1);
+        rd_comunicacion10_2 = findViewById(R.id.rd12_C3_2);
+        rd_comunicacion10_3 = findViewById(R.id.rd12_C3_3);
         rbg_comunicacion10.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int irl) {
@@ -310,7 +311,7 @@ public class Comunicacion6Activity extends AppCompatActivity {
 
                     case R.id.rd12_C4_3:
                         if (rd_comunicacion11_3.isChecked()){
-                            Intent intent = new Intent(Comunicacion6Activity.this,Comunicacion7Activity.class);
+                            Intent intent = new Intent(Comunicacion6Activity.this, Comunicacion7Activity.class);
                             startActivity(intent);
                         }
                         break;
@@ -318,6 +319,7 @@ public class Comunicacion6Activity extends AppCompatActivity {
                 }
             }
         });
+
 
     }
 }

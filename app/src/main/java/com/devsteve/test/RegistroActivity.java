@@ -2,6 +2,7 @@ package com.devsteve.test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -14,9 +15,18 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.devsteve.test.Animodo.AnimodoActivity;
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 public class RegistroActivity extends AppCompatActivity {
@@ -47,6 +57,9 @@ public class RegistroActivity extends AppCompatActivity {
         inpemail = findViewById(R.id.InpEmail);
         inpempresa = findViewById(R.id.InpEmpresa);
         inpcargo = findViewById(R.id.InpCargo);
+        //-----------------SPINER--------------------------
+        spin_sexo = findViewById(R.id.Spin_Sexo);
+        spin_edad = findViewById(R.id.Spin_Edad);
         //-----------------BOTON---------------------------
         btn_enviar = findViewById(R.id.Btn_Enviar);
         btn_enviar.setOnClickListener(new View.OnClickListener() {
@@ -60,53 +73,53 @@ public class RegistroActivity extends AppCompatActivity {
     }
 
     public void Validacion(){
-        String nameVal = nombre.getText().toString().trim();
-        String apellidoVal = apellido.getText().toString().trim();
-        String celularVal = celular.getText().toString().trim();
-        String empresaVal = empresa.getText().toString().trim();
-        String cargoVal = cargo.getText().toString().trim();
+        final String nameVal = nombre.getText().toString().trim();
+        final String apellidoVal = apellido.getText().toString().trim();
+        final String celularVal = celular.getText().toString().trim();
+        final String emailVal = email.getText().toString().trim();
+        final String empresaVal = empresa.getText().toString().trim();
+        final String cargoVal = cargo.getText().toString().trim();
+        final String sexoVal = spin_sexo.toString().trim();
+        final String edadval = spin_edad.toString().trim();
         boolean em = false, cel = false;
+
+        final ProgressDialog progressDialog = new ProgressDialog(this);
 
         //Validacion Nombre
         if (nameVal.isEmpty()){
-            nombre.setError("El campo no puede estar vacio");
+            nombre.setError("Complete los Campos");
         }else {
             nombre.setError(null);
         }
-        //Validacion Apelido
-        if (apellidoVal.isEmpty()){
-            apellido.setError("El campó no puede estar vacio");
-        }else {
+            if (apellidoVal.isEmpty()){
+            apellido.setError("Complete los Campos");
+        }else{
             apellido.setError(null);
         }
-        //Validacion Celular
-        if (celularVal.isEmpty() || celularVal.length() == 10 == false){
+            if (celularVal.isEmpty() || celularVal.length() == 10 == false){
             celular.setError("Maximo 10 digitos");
             cel = false;
         }else {
             celular.setError(null);
             cel = true;
         }
-        //Validacion Email
         if (Patterns.EMAIL_ADDRESS.matcher(email.getText().toString().trim()).matches() == false){
             email.setError("Correo Invalido");
             em = false;
-        }else {
+        }else{
             email.setError(null);
             em = true;
         }
-        //Validacion Empresa
-        if (empresaVal.isEmpty()){
-            empresa.setError("El campó no puede estar vacio");
+            if (empresaVal.isEmpty()){
+            empresa.setError("Complete los Campos");
         }else {
-            empresa.setError(null);
-        }
-        //Validacion Cargo
-        if (cargoVal.isEmpty()){
-            cargo.setError("El campó no puede estar vacio");
+                empresa.setError(null);
+            }
+            if (cargoVal.isEmpty()){
+            cargo.setError("Complete los Campos");
         }else {
-            cargo.setError(null);
-        }
+                empresa.setError(null);
+            }
 
         if (em == true && cel == true){
 
@@ -114,6 +127,48 @@ public class RegistroActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
+
+            /*
+            progressDialog.show();
+            StringRequest request = new StringRequest(Request.Method.POST, "", new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    if (response.equalsIgnoreCase("Usuario Registrado")) {
+                        Toast.makeText(RegistroActivity.this, "Usuario Ingresado", Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    } else {
+                        Toast.makeText(RegistroActivity.this, response, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(RegistroActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    progressDialog.dismiss();
+                }
+            }){
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+
+                    Map<String, String>params = new HashMap<String, String>();
+
+                    params.put("nombre",nameVal);
+                    params.put("Apellido",apellidoVal);
+                    params.put("Celular",celularVal);
+                    params.put("email",emailVal);
+                    params.put("empresa",empresaVal);
+                    params.put("cargo",cargoVal);
+                    params.put("sexo",sexoVal);
+                    params.put("edad",edadval);
+                    return super.getParams();
+                }
+            };
+
+            RequestQueue requestQueue = Volley.newRequestQueue(RegistroActivity.this);
+            requestQueue.add(request);*/
+
 
     }
 

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -54,7 +53,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioGroup
-                        android:id="@+id/formagroup4"
+                        android:id="@+id/rbg_N1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -66,6 +65,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <RadioButton
+                            android:id="@+id/rd_N1_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
@@ -74,6 +74,7 @@
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_N1_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
@@ -82,6 +83,7 @@
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_N1_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
@@ -141,7 +143,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioGroup
-                        android:id="@+id/formagroup4_1"
+                        android:id="@+id/rbg_N2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -153,14 +155,15 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <RadioButton
+                            android:id="@+id/rd_N2_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="A. Te molestas un poco, porque es la distribuidora más cercana a tu casa. Sin embargo dejas tus datos por si hubiera un cambio favorable."
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_N2_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
@@ -169,6 +172,7 @@
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_N2_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
@@ -217,7 +221,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4_2"
+                    android:id="@+id/rbg_N3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -230,6 +234,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_N3_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
@@ -238,6 +243,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
+                        android:id="@+id/rd_N3_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
@@ -246,6 +252,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
+                        android:id="@+id/rd_N3_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"

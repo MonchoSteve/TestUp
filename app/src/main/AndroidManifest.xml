@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.devsteve.test">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_icon"
@@ -9,7 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cerebro.Cerebro12Activity"></activity>
+        <activity android:name=".BienvenidoActivity"></activity>
+        <activity android:name=".Negociador.Negociador4Activity" />
+        <activity android:name=".Negociador.Negociador3Activity" />
+        <activity android:name=".Negociador.Negociador2Activity" />
+        <activity android:name=".Negociador.Negociador1Activity" />
+        <activity android:name=".Comunicacion.Comunicacion10Activity" />
+        <activity android:name=".Comunicacion.Comunicacion5Activity" />
+        <activity android:name=".Comunicacion.Comunicacion4Activity" />
+        <activity android:name=".Cerebro.Cerebro12Activity" />
         <activity android:name=".Cerebro.Cerebro11Activity" />
         <activity android:name=".Cerebro.Cerebro10Activity" />
         <activity android:name=".Cerebro.Cerebro9Activity" />
@@ -17,16 +28,15 @@
         <activity android:name=".Cerebro.Cerebro7Activity" />
         <activity android:name=".Cerebro.Cerebro5Activity" />
         <activity android:name=".Cerebro.Cerebro6Activity" />
-        <activity android:name=".Cerebro.Cerebro5Activity" />
         <activity android:name=".Cerebro.Cerebro4Activity" />
         <activity android:name=".Cerebro.Cerebro3Activity" />
         <activity android:name=".Cerebro.Cerebro2Activity" />
         <activity android:name=".Cerebro.Cerebro1Activity" />
-        <activity android:name=".Vack4Activity" />
-        <activity android:name=".Vack3Activity" />
-        <activity android:name=".Vack1Activity" />
-        <activity android:name=".Vack2Activity" />
-        <activity android:name=".VackActivity" />
+        <activity android:name=".Vack.Vack4Activity" />
+        <activity android:name=".Vack.Vack3Activity" />
+        <activity android:name=".Vack.Vack1Activity" />
+        <activity android:name=".Vack.Vack2Activity" />
+        <activity android:name=".Vack.VackActivity" />
         <activity android:name=".ActitudNegociadora.ActitudNegociadora6Activity" />
         <activity android:name=".ActitudNegociadora.ActitudNegociadora5Activity" />
         <activity android:name=".ActitudNegociadora.ActitudNegociadora4Activity" />
@@ -37,13 +47,10 @@
         <activity android:name=".Negociador.NegociadorActivity" />
         <activity android:name=".Cerebro.CerebroActivity" />
         <activity android:name=".Comunicacion.Comunicacion11Activity" />
-        <activity android:name=".Comunicacion.Comunicacion10Activity" />
         <activity android:name=".Comunicacion.Comunicacion9Activity" />
         <activity android:name=".Comunicacion.Comunicacion8Activity" />
         <activity android:name=".Comunicacion.Comunicacion7Activity" />
         <activity android:name=".Comunicacion.Comunicacion6Activity" />
-        <activity android:name=".Comunicacion.Comunicacion5Activity" />
-        <activity android:name=".Comunicacion.Comunicacion4Activity" />
         <activity android:name=".Comunicacion.Comunicacion3Activity" />
         <activity android:name=".Comunicacion.Comunicacion2Activity" />
         <activity android:name=".Comunicacion.Comunicacion1Activity" />

@@ -1,6 +1,7 @@
 package com.devsteve.test.Comunicacion;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -331,8 +332,26 @@ public class Comunicacion1Activity extends AppCompatActivity {
         cambiarbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                rbg1comuni.setSelected(false);
-                rbgcomuni.setSelected(false);
+
+                if (cambiarbutton.isClickable() == true){
+                    rbgcomuni.clearCheck();
+                    rd1comuni.setEnabled(true);
+                    rd2comuni.setEnabled(true);
+                    rd3comuni.setEnabled(true);
+                    rbgcomuni1.clearCheck();
+                    rdcomuni1.setEnabled(true);
+                    rdcomuni2.setEnabled(true);
+                    rdcomuni3.setEnabled(true);
+                    rbgcomuni2.clearCheck();
+                    rdcomuni4.setEnabled(true);
+                    rdcomuni5.setEnabled(true);
+                    rdcomuni6.setEnabled(true);
+                    rbgcomuni3.clearCheck();
+                    rdcomuni7.setEnabled(true);
+                    rdcomuni8.setEnabled(true);
+                    rdcomuni9.setEnabled(true);
+                }
+
             }
         });
         //borra opcion Pregunta 2
@@ -341,6 +360,24 @@ public class Comunicacion1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                if (cambiarbutton2.isClickable() == true){
+                    rbg1comuni.clearCheck();
+                    rdcomunica1.setEnabled(true);
+                    rdcomunica2.setEnabled(true);
+                    rdcomunica3.setEnabled(true);
+                    rbg1comuni2.clearCheck();
+                    rdcomunica4.setEnabled(true);
+                    rdcomunica5.setEnabled(true);
+                    rdcomunica6.setEnabled(true);
+                    rbg1comuni3.clearCheck();
+                    rdcomunica7.setEnabled(true);
+                    rdcomunica8.setEnabled(true);
+                    rdcomunica9.setEnabled(true);
+                    rbg2comuni.clearCheck();
+                    rdcom1.setEnabled(true);
+                    rdcom2.setEnabled(true);
+                    rdcom3.setEnabled(true);
+                }
             }
         });
     }

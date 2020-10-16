@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import com.devsteve.test.R;
 
 public class Comunicacion10Activity extends AppCompatActivity {
+
 
     private RadioGroup rbg_comunicacion4, rbg_comunicacion5, rbg_comunicacion6, rbg_comunicacion7,
             rbg_comunicaicon8, rbg_comunicacion9, rbg_comunicacion10,rbg_comunicacion11;
@@ -18,12 +20,13 @@ public class Comunicacion10Activity extends AppCompatActivity {
             rd_comunicacion7_3, rd_comunicacion8_1, rd_comunicacion8_2, rd_comunicacion8_3, rd_comunicacion9_1, rd_comunicacion9_2, rd_comunicacion9_3
             ,rd_comunicacion10_1, rd_comunicacion10_2, rd_comunicacion10_3, rd_comunicacion11_1, rd_comunicacion11_2,
             rd_comunicacion11_3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comunicacion10);
 
-        //Datos
+        //Analizar
         rbg_comunicacion4 = findViewById(R.id.rbg19_C1);
         rd_comunicacion4_1 = findViewById(R.id.rd19_C1_1);
         rd_comunicacion4_2 = findViewById(R.id.rd19_C1_2);
@@ -86,7 +89,7 @@ public class Comunicacion10Activity extends AppCompatActivity {
                     }
                         break;
 
-                    case R.id. rd19_C2_2:
+                    case R.id.rd19_C2_2:
                         if (rd_comunicacion5_2.isChecked()){
                             rd_comunicacion5_3.setEnabled(false);
                             rd_comunicacion4_2.setEnabled(false);
@@ -96,6 +99,10 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         break;
 
                     case R.id.rd19_C2_3:
+                        if (rd_comunicacion5_3.isChecked() == Boolean.parseBoolean(null)){
+
+                            Toast.makeText(Comunicacion10Activity.this, "LLene el campo de la pregunta 19", Toast.LENGTH_SHORT).show();
+                        }
                         break;
                 }
 
@@ -131,15 +138,18 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         }
                         break;
                     case R.id.rd19_C3_3:
+                        if (rd_comunicacion6_3.isChecked() == Boolean.parseBoolean(null)){
+                            rd_comunicacion6_3.setError("Campo vacio llene la pregunta");
+                        }
                         break;
                 }
             }
         });
         //Innovacion
         rbg_comunicacion7 = findViewById(R.id.rbg19_C4);
-        rd_comunicacion7_1 = findViewById(R.id.rd19_C4_1);
-        rd_comunicacion7_2 = findViewById(R.id.rd19_C4_2);
-        rd_comunicacion7_3 = findViewById(R.id.rd19_C4_3);
+        rd_comunicacion7_1 = findViewById(R.id.rd4_comunicacion4_1);
+        rd_comunicacion7_2 = findViewById(R.id.rd4_comunicacion4_2);
+        rd_comunicacion7_3 = findViewById(R.id.rd4_comunicacion4_3);
         rbg_comunicacion7.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int ix) {
@@ -171,11 +181,11 @@ public class Comunicacion10Activity extends AppCompatActivity {
                 }
             }
         });
-        //--------------Pregunta14-----------
+        //--------------Pregunta20-----------
         //Ingeniero
         rbg_comunicaicon8 = findViewById(R.id.rbg20_C1);
-        rd_comunicacion8_2 = findViewById(R.id.rd20_C1_2);
         rd_comunicacion8_1 = findViewById(R.id.rd20_C1_1);
+        rd_comunicacion8_2 = findViewById(R.id.rd20_C1_2);
         rd_comunicacion8_3 = findViewById(R.id.rd20_C1_3);
         rbg_comunicaicon8.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -242,10 +252,10 @@ public class Comunicacion10Activity extends AppCompatActivity {
             }
         });
         //Maestro
-        rbg_comunicacion10 = findViewById(R.id.rbg18_C3);
-        rd_comunicacion10_1 = findViewById(R.id.rd18_C3_1);
-        rd_comunicacion10_2 = findViewById(R.id.rd18_C3_2);
-        rd_comunicacion10_3 = findViewById(R.id.rd18_C3_3);
+        rbg_comunicacion10 = findViewById(R.id.rbg20_C3);
+        rd_comunicacion10_1 = findViewById(R.id.rd20_C3_1);
+        rd_comunicacion10_2 = findViewById(R.id.rd20_C3_2);
+        rd_comunicacion10_3 = findViewById(R.id.rd20_C3_3);
         rbg_comunicacion10.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int irl) {
@@ -270,7 +280,7 @@ public class Comunicacion10Activity extends AppCompatActivity {
                             rd_comunicacion8_2.setEnabled(false);
                             rd_comunicacion11_2.setEnabled(false);
                         }
-
+                        break;
                     case R.id.rd20_C3_3:
                         break;
 
@@ -308,8 +318,10 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         break;
 
                     case R.id.rd20_C4_3:
-                        if (rd_comunicacion11_3.isChecked()){
-                            Intent intent = new Intent(Comunicacion10Activity.this,Comunicacion11Activity.class);
+                        if (rd_comunicacion11_3.isChecked() == Boolean.parseBoolean(null)){
+                            rd_comunicacion11_3.setError("Campo vacio, llene la pregunta");
+                        }else {
+                            Intent intent = new Intent(Comunicacion10Activity.this, Comunicacion11Activity.class);
                             startActivity(intent);
                         }
                         break;

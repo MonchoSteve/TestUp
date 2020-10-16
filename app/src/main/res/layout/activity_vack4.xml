@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Vack4Activity">
+    tools:context=".Vack.Vack4Activity">
 
     <LinearLayout
         android:id="@+id/linearLayout34"
@@ -27,7 +27,7 @@
             android:paddingBottom="10dp"
             android:text=" 10. ¿Con cuál de las siguientes aficiones disfrutas más? "
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -40,6 +40,7 @@
             android:orientation="horizontal">
 
             <RadioGroup
+                android:id="@+id/rbg_Vack10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -50,25 +51,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_Vack10_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="a) Pasear / cuidar del jardín / bailar." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack10_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="b) Dibujar / pintar / ver paisajes / sacar fotografías." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack10_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="c) Música / cantar / contar historias." />
 
             </RadioGroup>
@@ -95,7 +96,7 @@
             android:paddingBottom="10dp"
             android:text=" 11. Para adquirir una nueva habilidad prefieres:"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -108,6 +109,7 @@
             android:orientation="horizontal">
 
             <RadioGroup
+                android:id="@+id/rbg_Vack11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -118,25 +120,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_Vack11_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="a) Escuchar una descripción y hacer preguntas." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack11_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="b) Ver diagramas y presentaciones." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack11_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="c) Hacer ejercicios." />
 
             </RadioGroup>
@@ -165,7 +167,7 @@
             android:paddingBottom="20dp"
             android:text=" 12. Cuando realmente quieres enseñar algo a alguien:"
             android:textColor="@color/colorText"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -178,7 +180,7 @@
             android:orientation="horizontal">
 
             <RadioGroup
-                android:id="@+id/formagroup4"
+                android:id="@+id/rbg_Vack12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -189,25 +191,25 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
+                    android:id="@+id/rd_Vack12_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="a) Creas una imagen para esa persona." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack12_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:checked="false"
                     android:text="b) Se lo explicas lógicamente." />
 
                 <RadioButton
+                    android:id="@+id/rd_Vack12_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:checked="false"
                     android:text="c) Le acompañas físicamente mientras lo hace." />
 
             </RadioGroup>

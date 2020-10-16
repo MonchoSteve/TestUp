@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Vack1Activity">
+        tools:context=".Vack.Vack1Activity">
 
         <LinearLayout
             android:id="@+id/linearLayout14"
@@ -33,7 +33,7 @@
                 android:paddingBottom="10dp"
                 android:text="  1. Evoca alguna ocasión en la que hayas aprendido a hacer algo nuevo para ti, como por ejemplo un juego de sobremesa, ¿cómo aprendiste mejor?"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -56,6 +56,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioGroup
+                        android:id="@+id/rbg_Vack1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -67,26 +68,26 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <RadioButton
+                            android:id="@+id/rd_Vack1_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="a) Por medio de indicaciones visuales: imágenes, diagramas o instrucciones escritas."
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack1_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="b) Escuchando las explicaciones de alguien."
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack1_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="c) Experimentando, probándolo tú mismo."
                             android:textColor="@color/colorAccent" />
 
@@ -120,7 +121,7 @@
                 android:paddingBottom="10dp"
                 android:text="  2. Tienes dificultades para encontrar el hotel en que te alojas en una ciudad donde sólo llevas unos pocos días, ¿qué haces? "
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -143,7 +144,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioGroup
-                        android:id="@+id/formagroup4_1"
+                        android:id="@+id/rbg_Vack2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -155,26 +156,26 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <RadioButton
+                            android:id="@+id/rd_Vack2_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="a) Sigo conduciendo en busca de alguna referencia conocida."
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack2_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="b) Pregunto."
                             android:textColor="@color/colorAccent" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack2_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="20dp"
-                            android:checked="false"
                             android:text="c) Miro el mapa."
                             android:textColor="@color/colorAccent" />
 
@@ -206,7 +207,7 @@
                 android:paddingBottom="10dp"
                 android:text=" 3. Tienes que aprender un nuevo programa informático, ¿qué haces?"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -229,7 +230,7 @@
                     app:layout_constraintVertical_bias="0.0">
 
                     <RadioGroup
-                        android:id="@+id/formagroup4"
+                        android:id="@+id/rbg_Vack3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -240,25 +241,25 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <RadioButton
+                            android:id="@+id/rd_Vack3_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="a) Le pido a un amigo que me ayude" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack3_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:checked="false"
                             android:text="b) Consulto el manual que viene con el programa" />
 
                         <RadioButton
+                            android:id="@+id/rd_Vack3_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="20dp"
-                            android:checked="false"
                             android:text="c) Llamo a un conocido y le pregunto" />
 
                     </RadioGroup>

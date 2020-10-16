@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Vack2Activity">
+        tools:context=".Vack.Vack2Activity">
 
         <LinearLayout
             android:id="@+id/linearLayout14"
@@ -33,7 +33,7 @@
                 android:paddingBottom="10dp"
                 android:text=" 4. No estás muy seguro de si se escribe “haber” o “a ver”, ¿qué haces?."
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4"
+                    android:id="@+id/rbg_Vack4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -57,25 +57,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack4_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="a) Me imagino ambas versiones mentalmente y elijo la que me parece correcta." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack4_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="b) Las escucho mentalmente." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="c) Las escribo y elijo la que me parece mejor." />
 
                 </RadioGroup>
@@ -104,7 +104,7 @@
                 android:paddingBottom="10dp"
                 android:text=" 5. Prefieres a los maestros o conferenciantes que utilizan:"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -117,6 +117,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_Vack5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -127,25 +128,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack5_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="a) Diagramas de flujo, apuntes, transparencias." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack5_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="b) Salidas al campo, laboratorios, sesiones prácticas." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack5_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="c) Discusiones, conferenciantes invitados." />
 
                 </RadioGroup>
@@ -174,7 +175,7 @@
                 android:paddingBottom="10dp"
                 android:text=" 6. Has comprado un artículo que tienes que montar tú mismo, ¿qué te ayudará más?. "
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -187,6 +188,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_Vack6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -197,25 +199,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_Vack6_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="a) Escuchar una cinta que describa los pasos a seguir." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack6_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="b) Comenzar a montarlo y aprender sobre la marcha." />
 
                     <RadioButton
+                        android:id="@+id/rd_Vack6_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="c) Ver un vídeo o consultar las instrucciones impresas." />
 
                 </RadioGroup>

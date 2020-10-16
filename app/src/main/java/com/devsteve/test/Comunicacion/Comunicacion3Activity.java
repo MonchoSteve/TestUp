@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.devsteve.test.R;
 
@@ -18,6 +20,8 @@ public class Comunicacion3Activity extends AppCompatActivity {
             rd_comunicacion7_3, rd_comunicacion8_1, rd_comunicacion8_2, rd_comunicacion8_3, rd_comunicacion9_1, rd_comunicacion9_2, rd_comunicacion9_3
             ,rd_comunicacion10_1, rd_comunicacion10_2, rd_comunicacion10_3, rd_comunicacion11_1, rd_comunicacion11_2,
             rd_comunicacion11_3;
+
+    private TextView cambiarbutton5, cambiarbutton6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -307,11 +311,65 @@ public class Comunicacion3Activity extends AppCompatActivity {
 
                     case R.id.rd8_comunicacion8_3:
                         if (rd_comunicacion11_3.isChecked()){
-                            Intent intent = new Intent(Comunicacion3Activity.this,Comunicacion4Activity.class);
+                            Intent intent = new Intent(Comunicacion3Activity.this, Comunicacion4Activity.class);
                             startActivity(intent);
                         }
                         break;
 
+                }
+            }
+        });
+
+        //borra opcion Pregunta 5
+        cambiarbutton5 = findViewById(R.id.Tv_CambiarComunicacion5);
+        cambiarbutton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (cambiarbutton5.isClickable() == true){
+                    rbg_comunicacion4.clearCheck();
+                    rd_comunicacion4_1.setEnabled(true);
+                    rd_comunicacion4_2.setEnabled(true);
+                    rd_comunicacion4_3.setEnabled(true);
+                    rbg_comunicacion5.clearCheck();
+                    rd_comunicacion5_1.setEnabled(true);
+                    rd_comunicacion5_2.setEnabled(true);
+                    rd_comunicacion5_3.setEnabled(true);
+                    rbg_comunicacion6.clearCheck();
+                    rd_comunicacion6_1.setEnabled(true);
+                    rd_comunicacion6_2.setEnabled(true);
+                    rd_comunicacion6_3.setEnabled(true);
+                    rbg_comunicacion7.clearCheck();
+                    rd_comunicacion7_1.setEnabled(true);
+                    rd_comunicacion7_2.setEnabled(true);
+                    rd_comunicacion7_3.setEnabled(true);
+                }
+
+            }
+        });
+        //borra opcion Pregunta 6
+        cambiarbutton6 = findViewById(R.id.Tv_CambiarComunicacion6);
+        cambiarbutton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (cambiarbutton6.isClickable() == true){
+                    rbg_comunicaicon8.clearCheck();
+                    rd_comunicacion8_1.setEnabled(true);
+                    rd_comunicacion8_2.setEnabled(true);
+                    rd_comunicacion8_3.setEnabled(true);
+                    rbg_comunicacion9.clearCheck();
+                    rd_comunicacion9_1.setEnabled(true);
+                    rd_comunicacion9_2.setEnabled(true);
+                    rd_comunicacion9_3.setEnabled(true);
+                    rbg_comunicacion10.clearCheck();
+                    rd_comunicacion10_1.setEnabled(true);
+                    rd_comunicacion10_2.setEnabled(true);
+                    rd_comunicacion10_3.setEnabled(true);
+                    rbg_comunicacion11.clearCheck();
+                    rd_comunicacion11_1.setEnabled(true);
+                    rd_comunicacion11_2.setEnabled(true);
+                    rd_comunicacion11_3.setEnabled(true);
                 }
             }
         });

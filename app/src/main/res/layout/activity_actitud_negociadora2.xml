@@ -44,8 +44,8 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/rbg_ACN4"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -55,25 +55,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN4_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Elegante. Actual. Con prestancia" />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN4_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Moderno. Casual. Actualizado" />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Situacional. Propio. Franco" />
 
                 </RadioGroup>
@@ -100,7 +100,7 @@
                 android:paddingBottom="10dp"
                 android:text=" 17. Serie No.5"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -114,6 +114,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -124,25 +125,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN5_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Decidido. Dedicado. Incisivo" />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN5_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Relacionista. Amistoso. Confiable" />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN5_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Integrador. Congruente. Paciente" />
 
                 </RadioGroup>
@@ -167,9 +168,9 @@
                 android:background="@color/colorPrimaryDark"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text=" 18.   No es la primera vez que un compañero de trabajo acude a ti para que le hagas un favor ¿Qué harías en esa situación?"
+                android:text=" 18. No es la primera vez que un compañero de trabajo acude a ti para que le hagas un favor ¿Qué harías en esa situación?"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -183,6 +184,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -193,25 +195,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN6_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Te aprovechas de la situación, para pedirle que te sirva a su vez en algo, aun cuando no te urge." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN6_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Por el momento… le haces el favor, sin esperar nada a cambio." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN6_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Practico. Conversador. Accesible" />
 
                 </RadioGroup>

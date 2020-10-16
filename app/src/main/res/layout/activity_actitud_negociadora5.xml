@@ -32,12 +32,11 @@
                 android:paddingBottom="10dp"
                 android:text=" 26. Cuando en una negociación, tu “oponente” se hace el “desentendido” o el “indeciso”"
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
@@ -46,7 +45,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
-                    android:id="@+id/formagroup4"
+                    android:id="@+id/rbg_ACN21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -57,25 +56,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN21_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Concretas las cosas para ganar tiempo y “sacarlo” de esa posición no conveniente." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN21_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Cambias el tema a fin de no presionarlo a que se decida, porque es riesgoso." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN21_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Te aprovechas de la situación para propiciar el cierre." />
 
                 </RadioGroup>
@@ -104,12 +103,11 @@
                 android:paddingBottom="10dp"
                 android:text=" 27. En una negociación con varias personas, sueles tender a: "
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
@@ -118,6 +116,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -128,25 +127,25 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN22_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Concentrar tus esfuerzos en el “líder de opinión” pues en mejor… “platicar con cristo que con sus discípulos”." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN22_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Tratas de convencer a los más accesibles, para que estos metan presión sobre el que decide." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN22_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:checked="false"
                         android:text="C. Tratas de modo “indiferente” a unos y a otros, intentando convencer a todo el grupo." />
 
                 </RadioGroup>
@@ -173,12 +172,11 @@
                 android:paddingBottom="10dp"
                 android:text=" 28. En una negociación experimentas -antipatía- por tu interlocutor:  "
                 android:textColor="@color/colorText"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
@@ -187,6 +185,7 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/rbg_ACN23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -197,24 +196,24 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <RadioButton
+                        android:id="@+id/rd_ACN23_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Por lo que delegas la gestión, en otra persona." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN23_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Esperas a que cambie de actitud, por una más favorable." />
 
                     <RadioButton
+                        android:id="@+id/rd_ACN23_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:text="C. Superas ese “sentimiento” y te dispones a “entrarle al toro” aun molesto." />
 
                 </RadioGroup>
