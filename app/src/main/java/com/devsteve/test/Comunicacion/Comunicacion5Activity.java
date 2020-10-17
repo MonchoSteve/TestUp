@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.devsteve.test.R;
 
@@ -19,6 +21,7 @@ public class Comunicacion5Activity extends AppCompatActivity {
             ,rd_comunicacion10_1, rd_comunicacion10_2, rd_comunicacion10_3, rd_comunicacion11_1, rd_comunicacion11_2,
             rd_comunicacion11_3;
 
+    private TextView cambiarbutton9, cambiarbutton10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -319,6 +322,59 @@ public class Comunicacion5Activity extends AppCompatActivity {
         });
 
 
+        //borra opcion Pregunta 9
+        cambiarbutton9 = findViewById(R.id.Tv_CambiarComunicacion9);
+        cambiarbutton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (cambiarbutton9.isClickable() == true){
+                    rbg_comunicacion4.clearCheck();
+                    rd_comunicacion4_1.setEnabled(true);
+                    rd_comunicacion4_2.setEnabled(true);
+                    rd_comunicacion4_3.setEnabled(true);
+                    rbg_comunicacion5.clearCheck();
+                    rd_comunicacion5_1.setEnabled(true);
+                    rd_comunicacion5_2.setEnabled(true);
+                    rd_comunicacion5_3.setEnabled(true);
+                    rbg_comunicacion6.clearCheck();
+                    rd_comunicacion6_1.setEnabled(true);
+                    rd_comunicacion6_2.setEnabled(true);
+                    rd_comunicacion6_3.setEnabled(true);
+                    rbg_comunicacion7.clearCheck();
+                    rd_comunicacion7_1.setEnabled(true);
+                    rd_comunicacion7_2.setEnabled(true);
+                    rd_comunicacion7_3.setEnabled(true);
+                }
+
+            }
+        });
+        //borra opcion Pregunta 10
+        cambiarbutton10 = findViewById(R.id.Tv_CambiarComunicacion10);
+        cambiarbutton10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (cambiarbutton10.isClickable() == true){
+                    rbg_comunicaicon8.clearCheck();
+                    rd_comunicacion8_1.setEnabled(true);
+                    rd_comunicacion8_2.setEnabled(true);
+                    rd_comunicacion8_3.setEnabled(true);
+                    rbg_comunicacion9.clearCheck();
+                    rd_comunicacion9_1.setEnabled(true);
+                    rd_comunicacion9_2.setEnabled(true);
+                    rd_comunicacion9_3.setEnabled(true);
+                    rbg_comunicacion10.clearCheck();
+                    rd_comunicacion10_1.setEnabled(true);
+                    rd_comunicacion10_2.setEnabled(true);
+                    rd_comunicacion10_3.setEnabled(true);
+                    rbg_comunicacion11.clearCheck();
+                    rd_comunicacion11_1.setEnabled(true);
+                    rd_comunicacion11_2.setEnabled(true);
+                    rd_comunicacion11_3.setEnabled(true);
+                }
+            }
+        });
 
     }
 }

@@ -286,6 +286,20 @@
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -571,6 +585,20 @@
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>

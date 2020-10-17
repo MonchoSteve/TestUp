@@ -112,7 +112,6 @@
                         android:id="@+id/rd19_C1_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -120,7 +119,6 @@
                         android:id="@+id/rd19_C1_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -128,7 +126,6 @@
                         android:id="@+id/rd19_C1_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
@@ -163,7 +160,6 @@
                         android:id="@+id/rd19_C2_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -171,7 +167,6 @@
                         android:id="@+id/rd19_C2_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -179,7 +174,6 @@
                         android:id="@+id/rd19_C2_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
@@ -213,7 +207,6 @@
                         android:id="@+id/rd19_C3_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -221,7 +214,6 @@
                         android:id="@+id/rd19_C3_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -229,7 +221,6 @@
                         android:id="@+id/rd19_C3_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="14dp" />
 
@@ -264,7 +255,6 @@
                         android:id="@+id/rd19_C4_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -272,7 +262,6 @@
                         android:id="@+id/rd19_C4_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -280,13 +269,26 @@
                         android:id="@+id/rd19_C4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -397,7 +399,6 @@
                         android:id="@+id/rd20_C1_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -405,7 +406,6 @@
                         android:id="@+id/rd20_C1_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -413,7 +413,6 @@
                         android:id="@+id/rd20_C1_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
@@ -448,7 +447,6 @@
                         android:id="@+id/rd20_C2_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -456,7 +454,6 @@
                         android:id="@+id/rd20_C2_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -464,7 +461,6 @@
                         android:id="@+id/rd20_C2_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
@@ -498,7 +494,6 @@
                         android:id="@+id/rd20_C3_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -506,7 +501,6 @@
                         android:id="@+id/rd20_C3_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -514,7 +508,6 @@
                         android:id="@+id/rd20_C3_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="14dp" />
 
@@ -549,7 +542,6 @@
                         android:id="@+id/rd20_C4_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -557,7 +549,6 @@
                         android:id="@+id/rd20_C4_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="25dp" />
 
@@ -565,13 +556,26 @@
                         android:id="@+id/rd20_C4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
                         android:paddingLeft="10dp"
                         android:paddingEnd="15dp" />
 
                 </RadioGroup>
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/Tv_CambiarComunicacion20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#ff0000 "
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Cambiar"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>

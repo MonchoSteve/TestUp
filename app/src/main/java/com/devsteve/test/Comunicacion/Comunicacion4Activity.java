@@ -324,7 +324,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
             }
         });
 
-        //borra opcion Pregunta 5
+        //borra opcion Pregunta 7
         cambiarbutton7 = findViewById(R.id.Tv_CambiarComunicacion7);
         cambiarbutton7.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -351,7 +351,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
 
             }
         });
-        //borra opcion Pregunta 6
+        //borra opcion Pregunta 8
         cambiarbutton8 = findViewById(R.id.Tv_CambiarComunicacion8);
         cambiarbutton8.setOnClickListener(new View.OnClickListener() {
             @Override
