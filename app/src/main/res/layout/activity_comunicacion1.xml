@@ -1,640 +1,608 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Comunicacion.Comunicacion1Activity">
 
-    <TextView
-        android:id="@+id/textView15"
+    <Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:text="TEST COLORES DE LA COMUNICACION"
-        android:textColor="@color/colorAccent"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="75dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp">
 
-    <View
-        android:id="@+id/divider"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TEST COLORES DE LA COMUNCICACIÓN"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+    </Toolbar>
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@color/colorAccent"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
-        app:layout_constraintVertical_bias="0.912" />
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/linearLayout7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#f2f2f2"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout26"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15">
-
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#f2f2f2"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:background="@color/colorPrimaryDark"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:text="  Pregunta Numero 1"
-                android:textColor="@color/colorText"
-                android:textSize="20dp" />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:gravity="end"
-                android:orientation="horizontal"
-                android:padding="16dp">
-
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="3"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.51"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="1"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.74"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.95"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="match_parent">
 
             <LinearLayout
+                android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:background="#f2f2f2"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout26"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Hechos"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg_Comunicacion"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
+                    android:layout_height="match_parent"
+                    android:background="#f2f2f2"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion_1"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="  Pregunta Número 1"
+                        android:textColor="@color/colorText"
+                        android:textSize="20dp" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.51"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.69"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.88"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hechos"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg_Comunicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Resultados"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg_Comunicacion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion1_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion1_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion1_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Personas"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg_Comunicacion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion2_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion2_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion2_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Ideas"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg_Comunicacion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion3_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion3_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rdcomunicacion3_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/Tv_CambiarComunicacion1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ff0000 "
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:text="Cambiar"
+                        android:textColor="@color/colorText"
+                        android:textSize="20sp" />
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
+                </LinearLayout>
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayout26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#f2f2f2"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
 
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Resultados"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg_Comunicacion1"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
+                    android:layout_height="match_parent"
+                    android:background="#f2f2f2"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion1_1"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="  Pregunta Número 2"
+                        android:textColor="@color/colorText"
+                        android:textSize="20dp" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.51"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.69"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.88"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Exactitud"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg1_Comunicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rd1comunicacion_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd1comunicacion_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd1comunicacion_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Impacto"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg2_Comunicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rd2comunicacion_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd2comunincacion_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd2comunicacion_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Contribución"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg3_Comunicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rd3comunicacion_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd3comunicacion_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd3comunicacion_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Creatividad"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/rbg4_Comunicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="end"
+                            android:orientation="horizontal"
+                            android:paddingEnd="10dp">
+
+                            <RadioButton
+                                android:id="@+id/rd4comunicacion_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd4comunicacion_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="25dp" />
+
+                            <RadioButton
+                                android:id="@+id/rd4comunicacion_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingEnd="15dp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/Tv_CambiarComunicacion2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ff0000 "
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:text="Cambiar"
+                        android:textColor="@color/colorText"
+                        android:textSize="20sp" />
+                </LinearLayout>
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion1_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion1_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Personas"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
 
-                <RadioGroup
-                    android:id="@+id/rbg_Comunicacion2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion2_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
+    </ScrollView>
 
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion2_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion2_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="12dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Ideas"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg_Comunicacion3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion3_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion3_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rdcomunicacion3_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/Tv_CambiarComunicacion1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:background="#ff0000 "
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="Cambiar"
-                android:textColor="@color/colorText"
-                android:textSize="20sp" />
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout26"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="8dp"
-        android:background="#f2f2f2"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
-        app:layout_constraintVertical_bias="0.51">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#f2f2f2"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:background="@color/colorPrimaryDark"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:text="  Pregunta Numero 2"
-                android:textColor="@color/colorText"
-                android:textSize="20dp" />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:gravity="end"
-                android:orientation="horizontal"
-                android:padding="16dp">
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="3"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.51"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="1"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.73"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.95"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Exactitud"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg1_Comunicacion"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/rd1comunicacion_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd1comunicacion_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd1comunicacion_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Impacto"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg2_Comunicacion"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/rd2comunicacion_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd2comunincacion_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd2comunicacion_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Contribución"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg3_Comunicacion"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/rd3comunicacion_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd3comunicacion_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd3comunicacion_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="false"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="0dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="Creatividad"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp" />
-
-                <RadioGroup
-                    android:id="@+id/rbg4_Comunicacion"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/rd4comunicacion_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd4comunicacion_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="25dp" />
-
-                    <RadioButton
-                        android:id="@+id/rd4comunicacion_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingEnd="15dp" />
-
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/Tv_CambiarComunicacion2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:background="#ff0000 "
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="Cambiar"
-                android:textColor="@color/colorText"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

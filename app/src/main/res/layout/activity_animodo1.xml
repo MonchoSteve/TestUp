@@ -1,318 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Animodo.Animodo1Activity">
-
-    <LinearLayout
-        android:id="@+id/linearLayout7"
+    <Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#F2F2F2"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp"
+        android:layout_height="75dp">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@color/colorPrimaryDark"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:text="  Pregunta Numero 1"
+            android:layout_gravity="center_horizontal"
+            android:text="TEST ANIMODOS"
             android:textColor="@color/colorText"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:gravity="center"
-            android:text="Yo me describiría como de mentalidad abierta"
-            android:textColor="@color/colorAccent"
             android:textSize="25sp" />
 
-        <LinearLayout
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/Animodotxt1"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:layout_marginRight="20dp"
-                android:text="1"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#F2F2F2"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/AnimodoTxt2"
-                android:layout_width="wrap_content"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="  Pregunta Numero 1"
+                    android:textColor="@color/colorText"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Yo me describiría como de mentalidad abierta"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Animodotxt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="20dp"
+                        android:text="1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/AnimodoTxt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="2"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/AnimodoTxt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="3"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/AnimodoTxt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="4"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/AnimodoTxt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="5"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/AnimodoTxt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="6"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rbg1_animodo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rd_anim1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/rd_anim2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/rd_anim3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/rd_anim4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/rd_anim5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/rd_anim6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Yo me describiría como explicito y tajante"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="2"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#F2F2F2"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
 
-            <TextView
-                android:id="@+id/AnimodoTxt3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="3"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="  Pregunta Numero 2"
+                    android:textColor="@color/colorText"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/AnimodoTxt4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="4"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Yo me describiría como reflexivo."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp" />
 
-            <TextView
-                android:id="@+id/AnimodoTxt5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="5"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/AnimodoTxt6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="6"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/Animodo1Txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="20dp"
+                        android:text="1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-        </LinearLayout>
+                    <TextView
+                        android:id="@+id/Animodo1Txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="2"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-        <RadioGroup
-            android:id="@+id/rbg1_animodo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/Animodo1Txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="3"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-            <RadioButton
-                android:id="@+id/rd_anim1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/Animodo1Txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="4"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-            <RadioButton
-                android:id="@+id/rd_anim2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                    <TextView
+                        android:id="@+id/Animodo1Txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="5"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-            <RadioButton
-                android:id="@+id/rd_anim3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                    <TextView
+                        android:id="@+id/Animodo1Txt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="6"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
-            <RadioButton
-                android:id="@+id/rd_anim4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                </LinearLayout>
 
-            <RadioButton
-                android:id="@+id/rd_anim5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                <RadioGroup
+                    android:id="@+id/rbg_Animodo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-            <RadioButton
-                android:id="@+id/rd_anim6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                    <RadioButton
+                        android:id="@+id/rd_animodo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-        </RadioGroup>
+                    <RadioButton
+                        android:id="@+id/rd_animodo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="center"
-            android:text="Yo me describiría como explicito y tajante"
-            android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+                    <RadioButton
+                        android:id="@+id/rd_animodo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-    </LinearLayout>
+                    <RadioButton
+                        android:id="@+id/rd_animodo4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout13"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#F2F2F2"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+                    <RadioButton
+                        android:id="@+id/rd_animodo5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@color/colorPrimaryDark"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:text="  Pregunta Numero 2"
-            android:textColor="@color/colorText"
-            android:textSize="20sp" />
+                    <RadioButton
+                        android:id="@+id/rd_animodo6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="center"
-            android:text="Yo me describiría como reflexivo."
-            android:textColor="@color/colorAccent"
-            android:textSize="25sp" />
+                </RadioGroup>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Yo me describiría como orientado a la acción."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp" />
 
-            <TextView
-                android:id="@+id/Animodo1Txt1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:layout_marginRight="20dp"
-                android:text="1"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/Animodo1Txt2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="2"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/Animodo1Txt3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="3"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/Animodo1Txt4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="4"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
+    </ScrollView>
 
-            <TextView
-                android:id="@+id/Animodo1Txt5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="5"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/Animodo1Txt6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="6"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp" />
-
-        </LinearLayout>
-
-        <RadioGroup
-            android:id="@+id/rbg_Animodo2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/rd_animodo1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/rd_animodo2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/rd_animodo3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/rd_animodo4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/rd_animodo5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/rd_animodo6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </RadioGroup>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="center"
-            android:text="Yo me describiría como orientado a la acción."
-            android:textColor="@color/colorAccent"
-            android:textSize="25sp" />
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

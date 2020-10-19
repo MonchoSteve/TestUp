@@ -13,13 +13,14 @@ import com.devsteve.test.R;
 
 public class Comunicacion2Activity extends AppCompatActivity {
 
-    private RadioGroup rbg_comunicacion4, rbg_comunicacion5, rbg_comunicacion6, rbg_comunicacion7,
-            rbg_comunicaicon8, rbg_comunicacion9, rbg_comunicacion10,rbg_comunicacion11;
-    private RadioButton rd_comunicacion4_1, rd_comunicacion4_2, rd_comunicacion4_3, rd_comunicacion5_1, rd_comunicacion5_2
-            ,rd_comunicacion5_3, rd_comunicacion6_1, rd_comunicacion6_2, rd_comunicacion6_3, rd_comunicacion7_1, rd_comunicacion7_2,
-            rd_comunicacion7_3, rd_comunicacion8_1, rd_comunicacion8_2, rd_comunicacion8_3, rd_comunicacion9_1, rd_comunicacion9_2, rd_comunicacion9_3
-            ,rd_comunicacion10_1, rd_comunicacion10_2, rd_comunicacion10_3, rd_comunicacion11_1, rd_comunicacion11_2,
-            rd_comunicacion11_3;
+
+    private RadioGroup rbgcomuni, rbgcomuni1, rbgcomuni2, rbgcomuni3;
+    private RadioGroup rbg1comuni, rbg1comuni2, rbg1comuni3, rbg2comuni;
+    private RadioButton rd1comuni, rd2comuni, rd3comuni,rdcomuni7, rdcomuni8, rdcomuni9,
+            rdcomunica1, rdcomunica2, rdcomunica3, rdcomunica4, rdcomunica5, rdcomunica6
+            ,rdcomunica7, rdcomunica8, rdcomunica9;
+    private RadioButton rdcomuni1, rdcomuni2, rdcomuni3, rdcomuni4, rdcomuni5, rdcomuni6,
+            rdcom1, rdcom2, rdcom3;
 
     private TextView cambiarbutton3, cambiarbutton4;
 
@@ -28,183 +29,193 @@ public class Comunicacion2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comunicacion2);
 
-        //Datos
-        rbg_comunicacion4 = findViewById(R.id.rbg_Comunicacion4);
-        rd_comunicacion4_1 = findViewById(R.id.rd_comunicacion4_1);
-        rd_comunicacion4_2 = findViewById(R.id.rd_comunicacion4_2);
-        rd_comunicacion4_3 = findViewById(R.id.rd_comunicacion4_3);
-        rbg_comunicacion4.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Hechos
+        rbgcomuni = findViewById(R.id.rbg_Comunicacion4);
+        rd1comuni = findViewById(R.id.rd_comunicacion4_1);
+        rd2comuni = findViewById(R.id.rd_comunicacion4_2);
+        rd3comuni = findViewById(R.id.rd_comunicacion4_3);
+        rbgcomuni.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                switch (i){
+                switch (i) {
                     case R.id.rd_comunicacion4_1:
-                        if (rd_comunicacion4_1.isChecked() == true){
-                            rd_comunicacion4_2.setEnabled(false);
-                            rd_comunicacion4_3.setEnabled(false);
-                            rd_comunicacion5_1.setEnabled(false);
-                            rd_comunicacion6_1.setEnabled(false);
-                            rd_comunicacion7_1.setEnabled(false);
-
-                        }if (rd_comunicacion4_1.isChecked() == true){
-                            rd_comunicacion5_2.setEnabled(true);
-                            rd_comunicacion6_2.setEnabled(true);
-                            rd_comunicacion7_2.setEnabled(true);
+                        if (rd1comuni.isChecked() == true) {
+                            rdcomuni1.setEnabled(false);
+                            rd2comuni.setEnabled(false);
+                            rd3comuni.setEnabled(false);
+                            rdcomuni4.setEnabled(false);
+                            rdcomuni7.setEnabled(false);
+                        }if (rd1comuni.isChecked() == true){
+                        rdcomuni2.setEnabled(true);
+                        rdcomuni5.setEnabled(true);
+                        rdcomuni8.setEnabled(true);
                     }
+
                         break;
 
                     case R.id.rd_comunicacion4_2:
-                        if (rd_comunicacion4_2.isChecked() == false){
-                            rd_comunicacion4_3.setEnabled(false);
-                            rd_comunicacion5_2.setEnabled(false);
-                            rd_comunicacion6_2.setEnabled(false);
-                            rd_comunicacion7_2.setEnabled(false);
+                        if (rd2comuni.isChecked()) {
+                            rd3comuni.setEnabled(false);
+                            rdcomuni2.setEnabled(false);
+                            rdcomuni5.setEnabled(false);
+                            rdcomuni8.setEnabled(false);
                         }
-                        break;
 
+                        break;
                     case R.id.rd_comunicacion4_3:
-
                         break;
+
                 }
             }
         });
-        //Desafios
-        rbg_comunicacion5 = findViewById(R.id.rbg_Comunicacion5);
-        rd_comunicacion5_1 = findViewById(R.id.rd_comunicacion5_1);
-        rd_comunicacion5_2 = findViewById(R.id.rd_comunicacion5_2);
-        rd_comunicacion5_3 = findViewById(R.id.rd_comunicacion5_3);
-        rbg_comunicacion5.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Resultados
+        rbgcomuni1 = findViewById(R.id.rbg_Comunicacion5);
+        rdcomuni1 = findViewById(R.id.rd_comunicacion5_1);
+        rdcomuni2 = findViewById(R.id.rd_comunicacion5_2);
+        rdcomuni3 = findViewById(R.id.rd_comunicacion5_3);
+        rbgcomuni1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int ip) {
-
-                switch (ip){
+            public void onCheckedChanged(RadioGroup radioGroup, int ix) {
+                switch (ix) {
                     case R.id.rd_comunicacion5_1:
-                        if (rd_comunicacion5_1.isChecked() == true){
-                            rd_comunicacion5_2.setEnabled(false);
-                            rd_comunicacion5_3.setEnabled(false);
-                            rd_comunicacion4_1.setEnabled(false);
-                            rd_comunicacion6_1.setEnabled(false);
-                            rd_comunicacion7_1.setEnabled(false);
-                        }if (rd_comunicacion5_1.isChecked()){
-                        rd_comunicacion4_2.setEnabled(true);
-                        rd_comunicacion6_2.setEnabled(true);
-                        rd_comunicacion7_2.setEnabled(true);
+                        if (rdcomuni1.isChecked()) {
+                            rd1comuni.setEnabled(false);
+                            rdcomuni2.setEnabled(false);
+                            rdcomuni3.setEnabled(false);
+                            rdcomuni4.setEnabled(false);
+                            rdcomuni7.setEnabled(false);
+                        }if(rdcomuni1.isChecked() == true){
+                        rd2comuni.setEnabled(true);
+                        rdcomuni5.setEnabled(true);
+                        rdcomuni8.setEnabled(true);
                     }
                         break;
+                    case R.id.rd_comunicacion5_2:
 
-                    case R.id. rd_comunicacion5_2:
-                        if (rd_comunicacion5_2.isChecked()){
-                            rd_comunicacion5_3.setEnabled(false);
-                            rd_comunicacion4_2.setEnabled(false);
-                            rd_comunicacion6_2.setEnabled(false);
-                            rd_comunicacion7_2.setEnabled(false);
+                        if (rdcomuni2.isChecked()) {
+                            rd2comuni.setEnabled(false);
+                            rdcomuni5.setEnabled(false);
+                            rdcomuni8.setEnabled(false);
+                            rdcomuni3.setEnabled(false);
                         }
                         break;
 
-                    case R.id. rd_comunicacion5_3:
+                    case R.id.rd_comunicacion5_3:
                         break;
+
                 }
 
             }
         });
-        //Testimonios
-        rbg_comunicacion6 = findViewById(R.id.rbg_Comunicacion6);
-        rd_comunicacion6_1 = findViewById(R.id.rd_comunicacion6_1);
-        rd_comunicacion6_2 = findViewById(R.id.rd_comunicacion6_2);
-        rd_comunicacion6_3 = findViewById(R.id.rd_comunicacion6_3);
-        rbg_comunicacion6.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Personas
+        rbgcomuni2 = findViewById(R.id.rbg_Comunicacion6);
+        rdcomuni4 = findViewById(R.id.rd_comunicacion6_1);
+        rdcomuni5 = findViewById(R.id.rd_comunicacion6_2);
+        rdcomuni6 = findViewById(R.id.rd_comunicacion6_3);
+        rbgcomuni2.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int ids) {
-                switch (ids){
+            public void onCheckedChanged(RadioGroup radioGroup, int ir) {
+                switch (ir) {
                     case R.id.rd_comunicacion6_1:
-                        if (rd_comunicacion6_1.isChecked() == true){
-                            rd_comunicacion4_1.setEnabled(false);
-                            rd_comunicacion5_1.setEnabled(false);
-                            rd_comunicacion7_1.setEnabled(false);
-                            rd_comunicacion6_2.setEnabled(false);
-                            rd_comunicacion6_3.setEnabled(false);
-                        }if (rd_comunicacion6_1.isChecked()){
-                            rd_comunicacion4_2.setEnabled(true);
-                            rd_comunicacion5_2.setEnabled(true);
-                            rd_comunicacion7_2.setEnabled(true);
-                    }
+                        if (rdcomuni4.isChecked()) {
+                            rd1comuni.setEnabled(false);
+                            rdcomuni5.setEnabled(false);
+                            rdcomuni6.setEnabled(false);
+                            rdcomuni1.setEnabled(false);
+                            rdcomuni7.setEnabled(false);
+                        }
+                        if(rdcomuni4.isChecked() == true){
+                            rd2comuni.setEnabled(true);
+                            rdcomuni2.setEnabled(true);
+                            rdcomuni8.setEnabled(true);
+                        }
                         break;
                     case R.id.rd_comunicacion6_2:
-                        if (rd_comunicacion6_2.isChecked()){
-                            rd_comunicacion6_3.setEnabled(false);
-                            rd_comunicacion4_2.setEnabled(false);
-                            rd_comunicacion5_2.setEnabled(false);
+                        if (rdcomuni5.isChecked()) {
+                            rd2comuni.setEnabled(false);
+                            rdcomuni2.setEnabled(false);
+                            rdcomuni8.setEnabled(false);
+                            rdcomuni6.setEnabled(false);
                         }
                         break;
+
                     case R.id.rd_comunicacion6_3:
                         break;
                 }
+
             }
         });
-        //Innovacion
-        rbg_comunicacion7 = findViewById(R.id.rbg_Comunicacion7);
-        rd_comunicacion7_1 = findViewById(R.id.rd_comunicacion7_1);
-        rd_comunicacion7_2 = findViewById(R.id.rd_comunicacion7_2);
-        rd_comunicacion7_3 = findViewById(R.id.rd_comunicacion7_3);
-        rbg_comunicacion7.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Ideas
+        rbgcomuni3 = findViewById(R.id.rbg_Comunicacion7);
+        rdcomuni7 = findViewById(R.id.rd_comunicacion7_1);
+        rdcomuni8 = findViewById(R.id.rd_comunicacion7_2);
+        rdcomuni9 = findViewById(R.id.rd_comunicacion7_3);
+        rbgcomuni3.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int ix) {
-                switch (ix){
+            public void onCheckedChanged(RadioGroup radioGroup, int ie) {
+                switch (ie) {
                     case R.id.rd_comunicacion7_1:
-                        if (rd_comunicacion7_1.isChecked()){
-                            rd_comunicacion7_2.setEnabled(false);
-                            rd_comunicacion7_3.setEnabled(false);
-                            rd_comunicacion4_1.setEnabled(false);
-                            rd_comunicacion5_1.setEnabled(false);
-                            rd_comunicacion6_1.setEnabled(false);
-
-                        }if (rd_comunicacion7_1.isChecked()){
-                        rd_comunicacion4_2.setEnabled(true);
-                        rd_comunicacion5_2.setEnabled(true);
-                        rd_comunicacion6_2.setEnabled(true);
-                    }
-                        break;
-                    case R.id.rd_comunicacion7_2:
-                        if (rd_comunicacion7_2.isChecked()){
-                            rd_comunicacion4_2.setEnabled(false);
-                            rd_comunicacion5_2.setEnabled(false);
-                            rd_comunicacion6_2.setEnabled(false);
-                            rd_comunicacion7_3.setEnabled(false);
+                        if (rdcomuni7.isChecked()) {
+                            rd1comuni.setEnabled(false);
+                            rdcomuni1.setEnabled(false);
+                            rdcomuni4.setEnabled(false);
+                            rdcomuni8.setEnabled(false);
+                            rdcomuni9.setEnabled(false);
+                        }
+                        if (rdcomuni7.isChecked() == true){
+                            rd2comuni.setEnabled(true);
+                            rdcomuni2.setEnabled(true);
+                            rdcomuni5.setEnabled(true);
                         }
                         break;
+                    case R.id.rd_comunicacion7_2:
+                        if (rdcomuni8.isChecked()) {
+                            rd2comuni.setEnabled(false);
+                            rdcomuni2.setEnabled(false);
+                            rdcomuni5.setEnabled(false);
+                            rdcomuni9.setEnabled(false);
+                        }
+                        break;
+
                     case R.id.rd_comunicacion7_3:
                         break;
+
+
                 }
             }
         });
-        //--------------Pregunta4-----------
-        //Ingeniero
-        rbg_comunicaicon8 = findViewById(R.id.rbg_Comunicacion8);
-        rd_comunicacion8_1 = findViewById(R.id.rd_comunicacion8_1);
-        rd_comunicacion8_2 = findViewById(R.id.rd_comunicacion8_2);
-        rd_comunicacion8_3 = findViewById(R.id.rd_comunicacion8_3);
-        rbg_comunicaicon8.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+
+        //----------Pregunta numero 2-----------
+        //Exactitud
+        rbg1comuni = findViewById(R.id.rbg_Comunicacion8);
+        rdcomunica1 = findViewById(R.id.rd_comunicacion8_1);
+        rdcomunica2 = findViewById(R.id.rd_comunicacion8_2);
+        rdcomunica3 = findViewById(R.id.rd_comunicacion8_3);
+        rbg1comuni.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int ifd) {
-                switch (ifd){
+            public void onCheckedChanged(RadioGroup radioGroup, int inv) {
+                switch (inv){
                     case R.id.rd_comunicacion8_1:
-                        if (rd_comunicacion8_1.isChecked() == true){
-                            rd_comunicacion8_2.setEnabled(false);
-                            rd_comunicacion8_3.setEnabled(false);
-                            rd_comunicacion9_1.setEnabled(false);
-                            rd_comunicacion10_1.setEnabled(false);
-                            rd_comunicacion11_1.setEnabled(false);
-                        }if (rd_comunicacion8_1.isChecked() == true){
-                        rd_comunicacion9_2.setEnabled(true);
-                        rd_comunicacion10_2.setEnabled(true);
-                        rd_comunicacion11_2.setEnabled(true);
+                        if (rdcomunica1.isChecked() == true) {
+                            rdcomunica2.setEnabled(false);
+                            rdcomunica3.setEnabled(false);
+                            rdcomunica4.setEnabled(false);
+                            rdcomunica7.setEnabled(false);
+                            rdcom1.setEnabled(false);
+                        }if (rdcomunica1.isChecked() == true){
+                        rdcomunica5.setEnabled(true);
+                        rdcomunica8.setEnabled(true);
+                        rdcom2.setEnabled(true);
+
                     }
+
                         break;
                     case R.id.rd_comunicacion8_2:
-                        if (rd_comunicacion8_2.isChecked()){
-                            rd_comunicacion8_3.setEnabled(false);
-                            rd_comunicacion9_2.setEnabled(false);
-                            rd_comunicacion10_2.setEnabled(false);
-                            rd_comunicacion11_2.setEnabled(false);
+                        if (rdcomunica2.isChecked() == true) {
+                            rdcom2.setEnabled(false);
+                            rdcomunica5.setEnabled(false);
+                            rdcomunica8.setEnabled(false);
+                            rdcomunica3.setEnabled(false);
                         }
                         break;
                     case R.id.rd_comunicacion8_3:
@@ -212,33 +223,33 @@ public class Comunicacion2Activity extends AppCompatActivity {
                 }
             }
         });
-        //Director
-        rbg_comunicacion9 = findViewById(R.id.rbg_Comunicacion9);
-        rd_comunicacion9_1 = findViewById(R.id.rd_comunicacion9_1);
-        rd_comunicacion9_2 = findViewById(R.id.rd_comunicacion9_2);
-        rd_comunicacion9_3 = findViewById(R.id.rd_comunicacion9_3);
-        rbg_comunicacion9.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Impacto
+        rbg1comuni2 = findViewById(R.id.rbg_Comunicacion9);
+        rdcomunica4 = findViewById(R.id.rd_comunicacion9_1);
+        rdcomunica5 = findViewById(R.id.rd_comunicacion9_2);
+        rdcomunica6 = findViewById(R.id.rd_comunicacion9_3);
+        rbg1comuni2.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int ch) {
-                switch (ch){
+            public void onCheckedChanged(RadioGroup radioGroup, int inchek) {
+                switch (inchek){
                     case R.id.rd_comunicacion9_1:
-                        if (rd_comunicacion9_1.isChecked() == true){
-                            rd_comunicacion8_1.setEnabled(false);
-                            rd_comunicacion9_2.setEnabled(false);
-                            rd_comunicacion9_3.setEnabled(false);
-                            rd_comunicacion10_1.setEnabled(false);
-                            rd_comunicacion11_1.setEnabled(false);
-                        }if (rd_comunicacion9_1.isChecked() == true){
-                        rd_comunicacion8_2.setEnabled(true);
-                        rd_comunicacion10_2.setEnabled(true);
-                        rd_comunicacion11_2.setEnabled(true);
+                        if (rdcomunica4.isChecked() == true){
+                            rdcomunica1.setEnabled(false);
+                            rdcomunica5.setEnabled(false);
+                            rdcomunica6.setEnabled(false);
+                            rdcomunica7.setEnabled(false);
+                            rdcom1.setEnabled(false);
+                        }if (rdcomunica4.isChecked() == true){
+                        rdcomunica8.setEnabled(true);
+                        rdcom2.setEnabled(true);
                     }
                         break;
                     case R.id.rd_comunicacion9_2:
-                        if (rd_comunicacion9_2.isChecked() == true){
-                            rd_comunicacion9_3.setEnabled(false);
-                            rd_comunicacion10_2.setEnabled(false);
-                            rd_comunicacion11_2.setEnabled(false);
+                        if (rdcomunica5.isChecked()){
+                            rdcomunica8.setEnabled(false);
+                            rdcom2.setEnabled(false);
+                            rdcomunica6.setEnabled(false);
+                            rdcomunica2.setEnabled(false);
                         }
                         break;
                     case R.id.rd_comunicacion9_3:
@@ -246,76 +257,78 @@ public class Comunicacion2Activity extends AppCompatActivity {
                 }
             }
         });
-        //Maestro
-        rbg_comunicacion10 = findViewById(R.id.rbg_Comunicacion10);
-        rd_comunicacion10_1 = findViewById(R.id.rd_comunicacion10_1);
-        rd_comunicacion10_2 = findViewById(R.id.rd_comunicacion10_2);
-        rd_comunicacion10_3 = findViewById(R.id.rd_comunicacion10_3);
-        rbg_comunicacion10.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Contribucion
+        rbg1comuni3 = findViewById(R.id.rbg_Comunicacion10);
+        rdcomunica7 = findViewById(R.id.rd_comunicacion10_1);
+        rdcomunica8 = findViewById(R.id.rd_comunicacion10_2);
+        rdcomunica9 = findViewById(R.id.rd_comunicacion10_3);
+        rbg1comuni3.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int irl) {
-                switch (irl){
+            public void onCheckedChanged(RadioGroup radioGroup, int inch) {
+                switch(inch){
                     case R.id.rd_comunicacion10_1:
-                        if (rd_comunicacion10_1.isChecked() == true){
-                            rd_comunicacion10_2.setEnabled(false);
-                            rd_comunicacion10_3.setEnabled(false);
-                            rd_comunicacion9_1.setEnabled(false);
-                            rd_comunicacion8_1.setEnabled(false);
-                            rd_comunicacion11_1.setEnabled(false);
-                        }if (rd_comunicacion10_1.isChecked() == true){
-                        rd_comunicacion8_2.setEnabled(true);
-                        rd_comunicacion9_2.setEnabled(true);
-                        rd_comunicacion11_2.setEnabled(true);
+                        if (rdcomunica7.isChecked()){
+                            rdcomunica8.setEnabled(false);
+                            rdcomunica9.setEnabled(false);
+                            rdcomunica1.setEnabled(false);
+                            rdcomunica4.setEnabled(false);
+                            rdcom1.setEnabled(false);
+                        }if (rdcomunica7.isChecked() ==true){
+                        rdcomunica5.setEnabled(true);
+                        rdcomunica2.setEnabled(true);
+                        rdcom2.setEnabled(true);
                     }
                         break;
                     case R.id.rd_comunicacion10_2:
-                        if (rd_comunicacion10_2.isChecked() == true){
-                            rd_comunicacion10_3.setEnabled(false);
-                            rd_comunicacion9_2.setEnabled(false);
-                            rd_comunicacion8_2.setEnabled(false);
-                            rd_comunicacion11_2.setEnabled(false);
+                        if (rdcomunica8.isChecked()){
+                            rdcomunica5.setEnabled(false);
+                            rdcomunica2.setEnabled(false);
+                            rdcom2.setEnabled(false);
+                            rdcomunica9.setEnabled(false);
                         }
 
+                        break;
+                    case R.id.rd_comunicacion10_3:
+                        break;
                 }
             }
         });
-        //Artista
-        rbg_comunicacion11 = findViewById(R.id.rbg_Comunicacion11);
-        rd_comunicacion11_1 = findViewById(R.id.rd_comunicacion11_1);
-        rd_comunicacion11_2 = findViewById(R.id.rd_comunicacion11_2);
-        rd_comunicacion11_3 = findViewById(R.id.rd_comunicacion11_3);
-        rbg_comunicacion11.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        //Creatividad
+        rbg2comuni = findViewById(R.id.rbg_Comunicacion11);
+        rdcom1 = findViewById(R.id.rd_comunicacion11_1);
+        rdcom2 = findViewById(R.id.rd_comunicacion11_2);
+        rdcom3 = findViewById(R.id.rd_comunicacion11_3);
+        rbg2comuni.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int im) {
-                switch (im){
+            public void onCheckedChanged(RadioGroup radioGroup, int inc) {
+                switch (inc){
                     case R.id.rd_comunicacion11_1:
-                        if (rd_comunicacion11_1.isChecked() == true){
-                            rd_comunicacion10_2.setEnabled(false);
-                            rd_comunicacion10_3.setEnabled(false);
-                            rd_comunicacion9_1.setEnabled(false);
-                            rd_comunicacion8_1.setEnabled(false);
-                            rd_comunicacion11_1.setEnabled(false);
-                        }if (rd_comunicacion11_1.isChecked() == true){
-                        rd_comunicacion8_2.setEnabled(true);
-                        rd_comunicacion9_2.setEnabled(true);
-                        rd_comunicacion11_2.setEnabled(true);
+                        if (rdcom1.isChecked()){
+                            rdcomunica7.setEnabled(false);
+                            rdcomunica1.setEnabled(false);
+                            rdcomunica4.setEnabled(false);
+                            rdcom2.setEnabled(false);
+                            rdcom3.setEnabled(false);
+                        }if (rdcom1.isChecked() == true){
+                        rdcomunica5.setEnabled(true);
+                        rdcomunica8.setEnabled(true);
+                        rdcomunica2.setEnabled(true);
                     }
                         break;
                     case R.id.rd_comunicacion11_2:
-                        if (rd_comunicacion11_2.isChecked() == true){
-                            rd_comunicacion8_2.setEnabled(false);
-                            rd_comunicacion9_2.setEnabled(false);
-                            rd_comunicacion10_2.setEnabled(false);
+                        if (rdcom2.isChecked()){
+                            rdcomunica5.setEnabled(false);
+                            rdcomunica8.setEnabled(false);
+                            rdcomunica2.setEnabled(false);
+                            rdcom3.setEnabled(false);
                         }
                         break;
-
                     case R.id.rd_comunicacion11_3:
-                        if (rd_comunicacion11_3.isChecked()){
-                            Intent intent = new Intent(Comunicacion2Activity.this,Comunicacion3Activity.class);
+                        if (rdcom3.isChecked() || rdcomunica9.isChecked() || rdcomunica6.isChecked()){
+                            Intent intent = new Intent(Comunicacion2Activity.this, Comunicacion3Activity.class);
                             startActivity(intent);
                         }
                         break;
-
                 }
             }
         });
@@ -327,22 +340,22 @@ public class Comunicacion2Activity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (cambiarbutton3.isClickable() == true){
-                    rbg_comunicacion4.clearCheck();
-                    rd_comunicacion4_1.setEnabled(true);
-                    rd_comunicacion4_2.setEnabled(true);
-                    rd_comunicacion4_3.setEnabled(true);
-                    rbg_comunicacion5.clearCheck();
-                    rd_comunicacion5_1.setEnabled(true);
-                    rd_comunicacion5_2.setEnabled(true);
-                    rd_comunicacion5_3.setEnabled(true);
-                    rbg_comunicacion6.clearCheck();
-                    rd_comunicacion6_1.setEnabled(true);
-                    rd_comunicacion6_2.setEnabled(true);
-                    rd_comunicacion6_3.setEnabled(true);
-                    rbg_comunicacion7.clearCheck();
-                    rd_comunicacion7_1.setEnabled(true);
-                    rd_comunicacion7_2.setEnabled(true);
-                    rd_comunicacion7_3.setEnabled(true);
+                    rbgcomuni.clearCheck();
+                    rd1comuni.setEnabled(true);
+                    rd2comuni.setEnabled(true);
+                    rd3comuni.setEnabled(true);
+                    rbgcomuni1.clearCheck();
+                    rdcomuni1.setEnabled(true);
+                    rdcomuni2.setEnabled(true);
+                    rdcomuni3.setEnabled(true);
+                    rbgcomuni2.clearCheck();
+                    rdcomuni4.setEnabled(true);
+                    rdcomuni5.setEnabled(true);
+                    rdcomuni6.setEnabled(true);
+                    rbgcomuni3.clearCheck();
+                    rdcomuni7.setEnabled(true);
+                    rdcomuni8.setEnabled(true);
+                    rdcomuni9.setEnabled(true);
                 }
 
             }
@@ -354,22 +367,22 @@ public class Comunicacion2Activity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (cambiarbutton4.isClickable() == true){
-                    rbg_comunicaicon8.clearCheck();
-                    rd_comunicacion8_1.setEnabled(true);
-                    rd_comunicacion8_2.setEnabled(true);
-                    rd_comunicacion8_3.setEnabled(true);
-                    rbg_comunicacion9.clearCheck();
-                    rd_comunicacion9_1.setEnabled(true);
-                    rd_comunicacion9_2.setEnabled(true);
-                    rd_comunicacion9_3.setEnabled(true);
-                    rbg_comunicacion10.clearCheck();
-                    rd_comunicacion10_1.setEnabled(true);
-                    rd_comunicacion10_2.setEnabled(true);
-                    rd_comunicacion10_3.setEnabled(true);
-                    rbg_comunicacion11.clearCheck();
-                    rd_comunicacion11_1.setEnabled(true);
-                    rd_comunicacion11_2.setEnabled(true);
-                    rd_comunicacion11_3.setEnabled(true);
+                    rbg1comuni.clearCheck();
+                    rdcomunica1.setEnabled(true);
+                    rdcomunica2.setEnabled(true);
+                    rdcomunica3.setEnabled(true);
+                    rbg1comuni2.clearCheck();
+                    rdcomunica4.setEnabled(true);
+                    rdcomunica5.setEnabled(true);
+                    rdcomunica6.setEnabled(true);
+                    rbg1comuni3.clearCheck();
+                    rdcomunica7.setEnabled(true);
+                    rdcomunica8.setEnabled(true);
+                    rdcomunica9.setEnabled(true);
+                    rbg2comuni.clearCheck();
+                    rdcom1.setEnabled(true);
+                    rdcom2.setEnabled(true);
+                    rdcom3.setEnabled(true);
                 }
             }
         });

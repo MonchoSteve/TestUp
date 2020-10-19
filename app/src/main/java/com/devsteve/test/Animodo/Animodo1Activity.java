@@ -40,8 +40,6 @@ public class Animodo1Activity extends AppCompatActivity{
                 switch (i){
                     case R.id.rd_anim1:
 
-
-
                         break;
 
                     case R.id.rd_anim2:
@@ -103,5 +101,6 @@ public class Animodo1Activity extends AppCompatActivity{
 
 
     }
+
 
 }

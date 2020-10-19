@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Comunicacion.Comunicacion11Activity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TEST COLORES DE LA COMUNCICACIÓN"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+    </Toolbar>
+
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,8 +36,9 @@
                 android:id="@+id/linearlayoutform"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
                 android:background="#f2f2f2"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toTopOf="@+id/linearlayoutform2"
@@ -35,8 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -47,16 +61,13 @@
                         android:paddingBottom="20dp"
                         android:text="  Pregunta Numero 21"
                         android:textColor="@color/colorText"
-                        android:textSize="20dp" />
+                        android:textSize="20sp" />
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:gravity="end"
-                        android:orientation="horizontal"
-                        android:padding="16dp">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView10"
@@ -67,7 +78,7 @@
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.48"
+                            app:layout_constraintHorizontal_bias="0.51"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,7 +91,7 @@
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.7"
+                            app:layout_constraintHorizontal_bias="0.69"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,7 +104,7 @@
                             android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.91"
+                            app:layout_constraintHorizontal_bias="0.88"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -101,8 +112,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -149,8 +158,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -197,14 +204,11 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
                             android:text="Humanista"
                             android:textColor="@color/colorAccent"
                             android:textSize="20sp" />
@@ -213,6 +217,7 @@
                             android:id="@+id/rbg21_C3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:gravity="end"
                             android:orientation="horizontal"
                             android:paddingEnd="10dp">
@@ -236,7 +241,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="10dp"
-                                android:paddingEnd="14dp" />
+                                android:paddingEnd="15dp" />
 
                         </RadioGroup>
 
@@ -245,8 +250,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -300,6 +303,7 @@
                         android:background="#ff0000 "
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
+                        android:layout_marginBottom="10dp"
                         android:text="Cambiar"
                         android:textColor="@color/colorText"
                         android:textSize="20sp" />
@@ -311,10 +315,10 @@
                 android:id="@+id/linearlayoutform2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
                 android:background="#f2f2f2"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toTopOf="@+id/Btn_EnviarAnimodo"
@@ -326,8 +330,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="16dp">
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -338,16 +341,13 @@
                         android:paddingBottom="20dp"
                         android:text="  Pregunta Numero 22"
                         android:textColor="@color/colorText"
-                        android:textSize="20dp" />
+                        android:textSize="20sp" />
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:gravity="end"
-                        android:orientation="horizontal"
-                        android:padding="16dp">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView7"
@@ -355,10 +355,10 @@
                             android:layout_height="wrap_content"
                             android:text="3"
                             android:textColor="@color/colorAccent"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.48"
+                            app:layout_constraintHorizontal_bias="0.51"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -368,10 +368,10 @@
                             android:layout_height="wrap_content"
                             android:text="1"
                             android:textColor="@color/colorAccent"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.7"
+                            app:layout_constraintHorizontal_bias="0.69"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -381,10 +381,10 @@
                             android:layout_height="wrap_content"
                             android:text="0"
                             android:textColor="@color/colorAccent"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.91"
+                            app:layout_constraintHorizontal_bias="0.88"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -392,8 +392,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -440,8 +438,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -489,8 +485,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -528,7 +522,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="10dp"
-                                android:paddingEnd="14dp" />
+                                android:paddingEnd="15dp" />
 
                         </RadioGroup>
 
@@ -537,8 +531,6 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:gravity="center"
                         android:orientation="horizontal">
 
@@ -591,6 +583,7 @@
                         android:layout_gravity="end"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
                         android:background="#ff0000 "
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
@@ -606,6 +599,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
+                android:layout_marginBottom="16dp"
                 android:background="@color/colorPrimaryDark"
                 android:text="enviar"
                 android:textColor="@color/colorText"
@@ -623,4 +617,4 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
