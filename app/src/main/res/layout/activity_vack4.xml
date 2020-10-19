@@ -1,220 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Vack.Vack4Activity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout34"
+    <Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout35"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="75dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp">
 
-        <com.codesgood.views.JustifiedTextView
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@color/colorPrimaryDark"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:text=" 10. ¿Con cuál de las siguientes aficiones disfrutas más? "
+            android:layout_gravity="center_horizontal"
+            android:text="TEST VACK 1"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#F2F2F2"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <RadioGroup
-                android:id="@+id/rbg_Vack10"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/linearLayout34"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
                 android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout35"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <RadioButton
-                    android:id="@+id/rd_Vack10_1"
-                    android:layout_width="wrap_content"
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="a) Pasear / cuidar del jardín / bailar." />
+                    android:background="@color/colorPrimaryDark"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text=" 10. ¿Con cuál de las siguientes aficiones disfrutas más? "
+                    android:textColor="@color/colorText"
+                    android:textSize="15sp" />
 
-                <RadioButton
-                    android:id="@+id/rd_Vack10_2"
-                    android:layout_width="wrap_content"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="b) Dibujar / pintar / ver paisajes / sacar fotografías." />
+                    android:layout_marginTop="15dp"
+                    android:background="#F2F2F2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/rd_Vack10_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="c) Música / cantar / contar historias." />
+                    <RadioGroup
+                        android:id="@+id/rbg_Vack10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
 
-            </RadioGroup>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
+                        <RadioButton
+                            android:id="@+id/rd_Vack10_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="a) Pasear / cuidar del jardín / bailar." />
 
-    <LinearLayout
-        android:id="@+id/linearLayout35"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout34">
+                        <RadioButton
+                            android:id="@+id/rd_Vack10_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="b) Dibujar / pintar / ver paisajes / sacar fotografías." />
 
-        <com.codesgood.views.JustifiedTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@color/colorPrimaryDark"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:text=" 11. Para adquirir una nueva habilidad prefieres:"
-            android:textColor="@color/colorText"
-            android:textSize="15sp" />
+                        <RadioButton
+                            android:id="@+id/rd_Vack10_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="c) Música / cantar / contar historias." />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#F2F2F2"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+                    </RadioGroup>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
 
-            <RadioGroup
-                android:id="@+id/rbg_Vack11"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/linearLayout35"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout34">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text=" 11. Para adquirir una nueva habilidad prefieres:"
+                    android:textColor="@color/colorText"
+                    android:textSize="15sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#F2F2F2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/rbg_Vack11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RadioButton
+                            android:id="@+id/rd_Vack11_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="a) Escuchar una descripción y hacer preguntas." />
+
+                        <RadioButton
+                            android:id="@+id/rd_Vack11_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="b) Ver diagramas y presentaciones." />
+
+                        <RadioButton
+                            android:id="@+id/rd_Vack11_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="c) Hacer ejercicios." />
+
+                    </RadioGroup>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout35">
 
-                <RadioButton
-                    android:id="@+id/rd_Vack11_1"
-                    android:layout_width="wrap_content"
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="a) Escuchar una descripción y hacer preguntas." />
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text=" 12. Cuando realmente quieres enseñar algo a alguien:"
+                    android:textColor="@color/colorText"
+                    android:textSize="15sp" />
 
-                <RadioButton
-                    android:id="@+id/rd_Vack11_2"
-                    android:layout_width="wrap_content"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="b) Ver diagramas y presentaciones." />
+                    android:layout_marginTop="15dp"
+                    android:background="#F2F2F2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/rd_Vack11_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="c) Hacer ejercicios." />
+                    <RadioGroup
+                        android:id="@+id/rbg_Vack12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
 
-            </RadioGroup>
+                        <RadioButton
+                            android:id="@+id/rd_Vack12_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="a) Creas una imagen para esa persona." />
+
+                        <RadioButton
+                            android:id="@+id/rd_Vack12_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="b) Se lo explicas lógicamente." />
+
+                        <RadioButton
+                            android:id="@+id/rd_Vack12_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="c) Le acompañas físicamente mientras lo hace." />
+
+                    </RadioGroup>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
 
+    </ScrollView>
 
-    <LinearLayout
-        android:id="@+id/linearLayout14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout35">
-
-        <com.codesgood.views.JustifiedTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@color/colorPrimaryDark"
-            android:gravity="center"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:text=" 12. Cuando realmente quieres enseñar algo a alguien:"
-            android:textColor="@color/colorText"
-            android:textSize="15sp" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#F2F2F2"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <RadioGroup
-                android:id="@+id/rbg_Vack12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <RadioButton
-                    android:id="@+id/rd_Vack12_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="a) Creas una imagen para esa persona." />
-
-                <RadioButton
-                    android:id="@+id/rd_Vack12_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="b) Se lo explicas lógicamente." />
-
-                <RadioButton
-                    android:id="@+id/rd_Vack12_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="c) Le acompañas físicamente mientras lo hace." />
-
-            </RadioGroup>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

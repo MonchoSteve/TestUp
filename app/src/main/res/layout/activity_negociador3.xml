@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TEST FORMA NEGOCIADORA"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,8 +37,9 @@
             android:id="@+id/linearLayout14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,10 +48,9 @@
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:background="@color/colorPrimaryDark"
                 android:paddingTop="10dp"
+                android:gravity="center"
                 android:paddingBottom="10dp"
                 android:text=" 7. ¿Cómo crees que pudieras convencer más fácilmente a una persona?"
                 android:textColor="@color/colorText"
@@ -37,9 +59,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="15dp"
                 android:background="#f2f2f2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
@@ -61,7 +81,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Exponiendo claramente las razones y motivos, por los cuales, se le necesita." />
 
                     <RadioButton
@@ -69,15 +88,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Enumerándole las ventajas que le proporcionara tener una actitud de cooperación." />
 
                     <RadioButton
                         android:id="@+id/rd_N7_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        android:checked="false"
+                        android:layout_marginBottom="10dp"
                         android:text="C. Definitivamente evitar tener un fracaso, que deteriore tu imagen en esa empresa." />
 
                 </RadioGroup>
@@ -89,7 +106,9 @@
             android:id="@+id/linearLayout15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout16"
             app:layout_constraintEnd_toEndOf="parent"
@@ -100,10 +119,8 @@
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:background="@color/colorPrimaryDark"
-                android:gravity="center_horizontal|left"
+                android:gravity="center"
                 android:paddingTop="15dp"
                 android:paddingBottom="10dp"
                 android:text=" 8.Tienes una cita de negocios donde te dispones a defender tu marca a pesar de que sabes que la competencia esta fuerte, por lo tanto te concentras principalmente en:"
@@ -113,9 +130,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="15dp"
                 android:background="#f2f2f2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
@@ -137,7 +152,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="A. Preparar la información correcta y completa, para estar bien preparado." />
 
                     <RadioButton
@@ -145,15 +159,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:checked="false"
                         android:text="B. Analizas detenidamente la situación en que te encuentras, para encontrar posibles soluciones" />
 
                     <RadioButton
                         android:id="@+id/rd_N8_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        android:checked="false"
+                        android:layout_marginBottom="10dp"
                         android:text="C. Definitivamente evitar un fracaso, que deteriore tu imagen en esa empresa." />
 
                 </RadioGroup>
@@ -165,7 +177,10 @@
             android:id="@+id/linearLayout16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -175,10 +190,9 @@
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:background="@color/colorPrimaryDark"
                 android:paddingBottom="10dp"
+                android:gravity="center"
                 android:text=" 9. Una documentación que acabas de preparar contiene una serie de datos. ¿A cual de los siguientes aspectos, le darías mayor importancia?"
                 android:textColor="@color/colorText"
                 android:textSize="15sp" />
@@ -186,9 +200,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="15dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
@@ -237,4 +249,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</ScrollView>
+    </ScrollView>
+
+</LinearLayout>

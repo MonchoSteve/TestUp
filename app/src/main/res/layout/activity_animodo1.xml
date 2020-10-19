@@ -55,6 +55,7 @@
                     android:background="@color/colorPrimaryDark"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
+                    android:gravity="center"
                     android:text="  Pregunta Numero 1"
                     android:textColor="@color/colorText"
                     android:textSize="20sp" />
@@ -210,6 +211,7 @@
                     android:background="@color/colorPrimaryDark"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
+                    android:gravity="center"
                     android:text="  Pregunta Numero 2"
                     android:textColor="@color/colorText"
                     android:textSize="20sp" />
