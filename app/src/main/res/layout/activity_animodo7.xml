@@ -131,7 +131,7 @@
 
                 <RadioGroup
                     android:id="@+id/rbg_Animodo13"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:gravity="center"
@@ -139,31 +139,43 @@
 
                     <RadioButton
                         android:id="@+id/rd13_1"
+                        android:text="1"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd13_2"
+                        android:text="2"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd13_3"
+                        android:text="3"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd13_4"
+                        android:text="4"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd13_5"
+                        android:text="5"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd13_6"
+                        android:text="6"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -283,7 +295,7 @@
 
                 <RadioGroup
                     android:id="@+id/rbg_Animodo14"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:gravity="center"
@@ -291,31 +303,43 @@
 
                     <RadioButton
                         android:id="@+id/rd14_1"
+                        android:text="1"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd14_2"
+                        android:text="2"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd14_3"
+                        android:text="3"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd14_4"
+                        android:text="4"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd14_5"
+                        android:text="5"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <RadioButton
                         android:id="@+id/rd14_6"
+                        android:text="6"
+                        android:textSize="0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
