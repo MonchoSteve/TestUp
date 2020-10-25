@@ -72,7 +72,6 @@ public class Animodo1Activity extends AppCompatActivity{
                         break;
 
                     case R.id.rd_anim3:
-
                         if (animodrad3.isChecked()){
                             Variables.setRdnum3(animodrad3.getText().toString());
                             animodrad2.setChecked(false);
@@ -81,7 +80,6 @@ public class Animodo1Activity extends AppCompatActivity{
                             animodrad5.setChecked(false);
                             animodrad6.setChecked(false);
                         }
-
                         break;
 
                     case R.id.rd_anim4:

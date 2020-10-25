@@ -1,7 +1,5 @@
 package com.devsteve.test.Comunicacion;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +7,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.devsteve.test.R;
+import com.devsteve.test.Variables;
 
 public class Comunicacion4Activity extends AppCompatActivity {
 
@@ -40,6 +41,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (i){
                     case R.id.rd7_C1_1:
                         if (rd_comunicacion4_1.isChecked() == true){
+                            Variables.setCom19(rd_comunicacion4_1.getText().toString());
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion4_3.setEnabled(false);
                             rd_comunicacion5_1.setEnabled(false);
@@ -55,6 +57,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
 
                     case R.id.rd7_C1_2:
                         if (rd_comunicacion4_2.isChecked() == false){
+                            Variables.setCom20(rd_comunicacion4_2.getText().toString());
                             rd_comunicacion4_3.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
@@ -63,7 +66,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
 
                     case R.id.rd7_C1_3:
-
+                        Variables.setCom21(rd_comunicacion4_3.getText().toString());
                         break;
                 }
             }
@@ -80,6 +83,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (ip){
                     case R.id.rd7_C2_1:
                         if (rd_comunicacion5_1.isChecked() == true){
+                            Variables.setCom19_1(rd_comunicacion5_1.getText().toString());
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion5_3.setEnabled(false);
                             rd_comunicacion4_1.setEnabled(false);
@@ -94,6 +98,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
 
                     case R.id. rd7_C2_2:
                         if (rd_comunicacion5_2.isChecked()){
+                            Variables.setCom19_2(rd_comunicacion5_2.getText().toString());
                             rd_comunicacion5_3.setEnabled(false);
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
@@ -102,6 +107,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
 
                     case R.id.rd7_C2_3:
+                        Variables.setCom19_3(rd_comunicacion5_3.getText().toString());
                         break;
                 }
 
@@ -118,6 +124,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (ids){
                     case R.id.rd7_C3_1:
                         if (rd_comunicacion6_1.isChecked() == true){
+                            Variables.setCom20_1(rd_comunicacion6_1.getText().toString());
                             rd_comunicacion4_1.setEnabled(false);
                             rd_comunicacion5_1.setEnabled(false);
                             rd_comunicacion7_1.setEnabled(false);
@@ -131,12 +138,14 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd7_C3_2:
                         if (rd_comunicacion6_2.isChecked()){
+                            Variables.setCom20_2(rd_comunicacion6_2.getText().toString());
                             rd_comunicacion6_3.setEnabled(false);
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                         }
                         break;
                     case R.id.rd7_C3_3:
+                        Variables.setCom20_3(rd_comunicacion6_3.getText().toString());
                         break;
                 }
             }
@@ -152,6 +161,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (ix){
                     case R.id.rd7_C4_1:
                         if (rd_comunicacion7_1.isChecked()){
+                            Variables.setCom21_1(rd_comunicacion7_1.getText().toString());
                             rd_comunicacion7_2.setEnabled(false);
                             rd_comunicacion7_3.setEnabled(false);
                             rd_comunicacion4_1.setEnabled(false);
@@ -166,6 +176,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd7_C4_2:
                         if (rd_comunicacion7_2.isChecked()){
+                            Variables.setCom21_2(rd_comunicacion7_2.getText().toString());
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
@@ -173,11 +184,12 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         }
                         break;
                     case R.id.rd7_C4_3:
+                        Variables.setCom21_3(rd_comunicacion7_3.getText().toString());
                         break;
                 }
             }
         });
-        //--------------Pregunta8-----------
+        //--------------Pregunta 8-----------
         //Ingeniero
         rbg_comunicaicon8 = findViewById(R.id.rbg8_C1);
         rd_comunicacion8_1 = findViewById(R.id.rd8_C1_1);
@@ -189,6 +201,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (ifd){
                     case R.id.rd8_C1_1:
                         if (rd_comunicacion8_1.isChecked() == true){
+                            Variables.setCom22(rd_comunicacion8_1.getText().toString());
                             rd_comunicacion8_2.setEnabled(false);
                             rd_comunicacion8_3.setEnabled(false);
                             rd_comunicacion9_1.setEnabled(false);
@@ -202,6 +215,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd8_C1_2:
                         if (rd_comunicacion8_2.isChecked()){
+                            Variables.setCom23(rd_comunicacion8_2.getText().toString());
                             rd_comunicacion8_3.setEnabled(false);
                             rd_comunicacion9_2.setEnabled(false);
                             rd_comunicacion10_2.setEnabled(false);
@@ -209,6 +223,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         }
                         break;
                     case R.id.rd8_C1_3:
+                        Variables.setCom24(rd_comunicacion8_3.getText().toString());
                         break;
                 }
             }
@@ -224,6 +239,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (ch){
                     case R.id.rd8_C2_1:
                         if (rd_comunicacion9_1.isChecked() == true){
+                            Variables.setCom22_1(rd_comunicacion9_1.getText().toString());
                             rd_comunicacion8_1.setEnabled(false);
                             rd_comunicacion9_2.setEnabled(false);
                             rd_comunicacion9_3.setEnabled(false);
@@ -237,12 +253,14 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd8_C2_2:
                         if (rd_comunicacion9_2.isChecked() == true){
+                            Variables.setCom22_2(rd_comunicacion9_2.getText().toString());
                             rd_comunicacion9_3.setEnabled(false);
                             rd_comunicacion10_2.setEnabled(false);
                             rd_comunicacion11_2.setEnabled(false);
                         }
                         break;
                     case R.id.rd8_C2_3:
+                        Variables.setCom22_3(rd_comunicacion9_3.getText().toString());
                         break;
                 }
             }
@@ -258,6 +276,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (irl){
                     case R.id.rd8_C3_1:
                         if (rd_comunicacion10_1.isChecked() == true){
+                            Variables.setCom23_1(rd_comunicacion10_1.getText().toString());
                             rd_comunicacion10_2.setEnabled(false);
                             rd_comunicacion10_3.setEnabled(false);
                             rd_comunicacion9_1.setEnabled(false);
@@ -271,6 +290,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd8_C3_2:
                         if (rd_comunicacion10_2.isChecked() == true){
+                            Variables.setCom23_2(rd_comunicacion10_2.getText().toString());
                             rd_comunicacion10_3.setEnabled(false);
                             rd_comunicacion9_2.setEnabled(false);
                             rd_comunicacion8_2.setEnabled(false);
@@ -278,6 +298,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         }
 
                     case R.id.rd8_C3_3:
+                        Variables.setCom23_3(rd_comunicacion10_3.getText().toString());
                         break;
 
                 }
@@ -294,6 +315,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                 switch (im){
                     case R.id.rd8_C4_1:
                         if (rd_comunicacion11_1.isChecked() == true){
+                            Variables.setCom24_1(rd_comunicacion11_1.getText().toString());
                             rd_comunicacion10_2.setEnabled(false);
                             rd_comunicacion10_3.setEnabled(false);
                             rd_comunicacion9_1.setEnabled(false);
@@ -307,6 +329,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
                         break;
                     case R.id.rd8_C4_2:
                         if (rd_comunicacion11_2.isChecked() == true){
+                            Variables.setCom24_2(rd_comunicacion11_2.getText().toString());
                             rd_comunicacion8_2.setEnabled(false);
                             rd_comunicacion9_2.setEnabled(false);
                             rd_comunicacion10_2.setEnabled(false);
@@ -315,6 +338,7 @@ public class Comunicacion4Activity extends AppCompatActivity {
 
                     case R.id.rd8_C4_3:
                         if (rd_comunicacion11_3.isChecked()){
+                            Variables.setCom24_3(rd_comunicacion11_3.getText().toString());
                             Intent intent = new Intent(Comunicacion4Activity.this, Comunicacion5Activity.class);
                             startActivity(intent);
                         }

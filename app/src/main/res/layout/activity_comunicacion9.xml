@@ -134,6 +134,8 @@
                                 android:id="@+id/rd17_C1_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -141,6 +143,8 @@
                                 android:id="@+id/rd17_C1_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -148,6 +152,8 @@
                                 android:id="@+id/rd17_C1_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -180,6 +186,8 @@
                                 android:id="@+id/rd17_C2_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -187,6 +195,8 @@
                                 android:id="@+id/rd17_C2_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -194,6 +204,8 @@
                                 android:id="@+id/rd17_C2_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -225,6 +237,8 @@
                                 android:id="@+id/rd17_C3_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -232,6 +246,8 @@
                                 android:id="@+id/rd17_C3_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -239,6 +255,8 @@
                                 android:id="@+id/rd17_C3_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="14dp" />
 
@@ -271,6 +289,8 @@
                                 android:id="@+id/rd17_C4_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -278,6 +298,8 @@
                                 android:id="@+id/rd17_C4_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -285,6 +307,8 @@
                                 android:id="@+id/rd17_C4_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -415,6 +439,8 @@
                                 android:id="@+id/rd18_C1_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -422,6 +448,8 @@
                                 android:id="@+id/rd18_C1_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -429,6 +457,8 @@
                                 android:id="@+id/rd18_C1_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -461,6 +491,8 @@
                                 android:id="@+id/rd18_C2_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -468,6 +500,8 @@
                                 android:id="@+id/rd18_C2_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -475,6 +509,8 @@
                                 android:id="@+id/rd18_C2_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -506,6 +542,8 @@
                                 android:id="@+id/rd18_C3_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -513,6 +551,8 @@
                                 android:id="@+id/rd18_C3_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -520,6 +560,8 @@
                                 android:id="@+id/rd18_C3_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="14dp" />
 
@@ -552,6 +594,8 @@
                                 android:id="@+id/rd18_C4_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -559,6 +603,8 @@
                                 android:id="@+id/rd18_C4_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -566,6 +612,8 @@
                                 android:id="@+id/rd18_C4_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -586,7 +634,7 @@
                         android:paddingRight="15dp"
                         android:text="Cambiar"
                         android:textColor="@color/colorText"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
             </LinearLayout>

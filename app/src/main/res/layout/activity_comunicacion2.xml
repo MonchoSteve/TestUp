@@ -135,6 +135,8 @@
                                 android:id="@+id/rd_comunicacion4_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -142,6 +144,8 @@
                                 android:id="@+id/rd_comunicacion4_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -149,6 +153,8 @@
                                 android:id="@+id/rd_comunicacion4_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -181,6 +187,8 @@
                                 android:id="@+id/rd_comunicacion5_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -188,6 +196,8 @@
                                 android:id="@+id/rd_comunicacion5_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -195,6 +205,8 @@
                                 android:id="@+id/rd_comunicacion5_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -227,6 +239,8 @@
                                 android:id="@+id/rd_comunicacion6_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -234,6 +248,8 @@
                                 android:id="@+id/rd_comunicacion6_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -241,6 +257,8 @@
                                 android:id="@+id/rd_comunicacion6_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -273,6 +291,8 @@
                                 android:id="@+id/rd_comunicacion7_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -280,6 +300,8 @@
                                 android:id="@+id/rd_comunicacion7_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -287,6 +309,8 @@
                                 android:id="@+id/rd_comunicacion7_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -307,7 +331,7 @@
                         android:paddingRight="15dp"
                         android:text="Cambiar"
                         android:textColor="@color/colorText"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -418,6 +442,8 @@
                                 android:id="@+id/rd_comunicacion8_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -425,6 +451,8 @@
                                 android:id="@+id/rd_comunicacion8_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -432,6 +460,8 @@
                                 android:id="@+id/rd_comunicacion8_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -464,6 +494,8 @@
                                 android:id="@+id/rd_comunicacion9_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -471,6 +503,8 @@
                                 android:id="@+id/rd_comunicacion9_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -478,6 +512,8 @@
                                 android:id="@+id/rd_comunicacion9_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -510,6 +546,8 @@
                                 android:id="@+id/rd_comunicacion10_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -517,6 +555,8 @@
                                 android:id="@+id/rd_comunicacion10_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -524,6 +564,8 @@
                                 android:id="@+id/rd_comunicacion10_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -556,6 +598,8 @@
                                 android:id="@+id/rd_comunicacion11_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -563,6 +607,8 @@
                                 android:id="@+id/rd_comunicacion11_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="25dp" />
 
@@ -570,6 +616,8 @@
                                 android:id="@+id/rd_comunicacion11_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="0sp"
                                 android:paddingLeft="10dp"
                                 android:paddingEnd="15dp" />
 
@@ -590,7 +638,7 @@
                         android:paddingRight="15dp"
                         android:text="Cambiar"
                         android:textColor="@color/colorText"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
             </LinearLayout>

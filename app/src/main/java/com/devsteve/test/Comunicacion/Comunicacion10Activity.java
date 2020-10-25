@@ -1,16 +1,16 @@
 package com.devsteve.test.Comunicacion;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.devsteve.test.R;
+import com.devsteve.test.Variables;
 
 public class Comunicacion10Activity extends AppCompatActivity {
 
@@ -39,8 +39,9 @@ public class Comunicacion10Activity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 switch (i){
-                    case R.id.rd19_C1_1:
+                    case R.id.rd17_C1_1:
                         if (rd_comunicacion4_1.isChecked() == true){
+                            Variables.setCom49(rd_comunicacion4_1.getText().toString());
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion4_3.setEnabled(false);
                             rd_comunicacion5_1.setEnabled(false);
@@ -54,8 +55,9 @@ public class Comunicacion10Activity extends AppCompatActivity {
                     }
                         break;
 
-                    case R.id.rd19_C1_2:
+                    case R.id.rd17_C1_2:
                         if (rd_comunicacion4_2.isChecked() == false){
+                            Variables.setCom50(rd_comunicacion4_2.getText().toString());
                             rd_comunicacion4_3.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
@@ -63,24 +65,25 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         }
                         break;
 
-                    case R.id.rd19_C1_3:
-
+                    case R.id.rd17_C1_3:
+                        Variables.setCom51(rd_comunicacion4_3.getText().toString());
                         break;
                 }
             }
         });
         //Desafios
-        rbg_comunicacion5 = findViewById(R.id.rbg19_C2);
-        rd_comunicacion5_1 = findViewById(R.id.rd19_C2_1);
-        rd_comunicacion5_2 = findViewById(R.id.rd19_C2_2);
-        rd_comunicacion5_3 = findViewById(R.id.rd19_C2_3);
+        rbg_comunicacion5 = findViewById(R.id.rbg17_C2);
+        rd_comunicacion5_1 = findViewById(R.id.rd17_C2_1);
+        rd_comunicacion5_2 = findViewById(R.id.rd17_C2_2);
+        rd_comunicacion5_3 = findViewById(R.id.rd17_C2_3);
         rbg_comunicacion5.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int ip) {
 
                 switch (ip){
-                    case R.id.rd19_C2_1:
+                    case R.id.rd17_C2_1:
                         if (rd_comunicacion5_1.isChecked() == true){
+                            Variables.setCom49_1(rd_comunicacion5_1.getText().toString());
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion5_3.setEnabled(false);
                             rd_comunicacion4_1.setEnabled(false);
@@ -93,8 +96,9 @@ public class Comunicacion10Activity extends AppCompatActivity {
                     }
                         break;
 
-                    case R.id.rd19_C2_2:
+                    case R.id. rd17_C2_2:
                         if (rd_comunicacion5_2.isChecked()){
+                            Variables.setCom49_2(rd_comunicacion5_2.getText().toString());
                             rd_comunicacion5_3.setEnabled(false);
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
@@ -102,23 +106,25 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         }
                         break;
 
-                    case R.id.rd19_C2_3:
+                    case R.id.rd17_C2_3:
+                        Variables.setCom49_3(rd_comunicacion5_3.getText().toString());
                         break;
                 }
 
             }
         });
         //Testimonios
-        rbg_comunicacion6 = findViewById(R.id.rbg19_C3);
-        rd_comunicacion6_1 = findViewById(R.id.rd19_C3_1);
-        rd_comunicacion6_2 = findViewById(R.id.rd19_C3_2);
-        rd_comunicacion6_3 = findViewById(R.id.rd19_C3_3);
+        rbg_comunicacion6 = findViewById(R.id.rbg17_C3);
+        rd_comunicacion6_1 = findViewById(R.id.rd17_C3_1);
+        rd_comunicacion6_2 = findViewById(R.id.rd17_C3_2);
+        rd_comunicacion6_3 = findViewById(R.id.rd17_C3_3);
         rbg_comunicacion6.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int ids) {
                 switch (ids){
-                    case R.id.rd19_C3_1:
+                    case R.id.rd17_C3_1:
                         if (rd_comunicacion6_1.isChecked() == true){
+                            Variables.setCom50_1(rd_comunicacion6_1.getText().toString());
                             rd_comunicacion4_1.setEnabled(false);
                             rd_comunicacion5_1.setEnabled(false);
                             rd_comunicacion7_1.setEnabled(false);
@@ -130,29 +136,32 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         rd_comunicacion7_2.setEnabled(true);
                     }
                         break;
-                    case R.id.rd19_C3_2:
+                    case R.id.rd17_C3_2:
                         if (rd_comunicacion6_2.isChecked()){
+                            Variables.setCom50_2(rd_comunicacion6_2.getText().toString());
                             rd_comunicacion6_3.setEnabled(false);
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                         }
                         break;
-                    case R.id.rd19_C3_3:
+                    case R.id.rd17_C3_3:
+                        Variables.setCom50_3(rd_comunicacion6_3.getText().toString());
                         break;
                 }
             }
         });
         //Innovacion
-        rbg_comunicacion7 = findViewById(R.id.rbg19_C4);
-        rd_comunicacion7_1 = findViewById(R.id.rd4_comunicacion4_1);
-        rd_comunicacion7_2 = findViewById(R.id.rd4_comunicacion4_2);
-        rd_comunicacion7_3 = findViewById(R.id.rd4_comunicacion4_3);
+        rbg_comunicacion7 = findViewById(R.id.rbg17_C4);
+        rd_comunicacion7_1 = findViewById(R.id.rd17_C4_1);
+        rd_comunicacion7_2 = findViewById(R.id.rd17_C4_2);
+        rd_comunicacion7_3 = findViewById(R.id.rd17_C4_3);
         rbg_comunicacion7.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int ix) {
                 switch (ix){
-                    case R.id.rd19_C4_1:
+                    case R.id.rd17_C4_1:
                         if (rd_comunicacion7_1.isChecked()){
+                            Variables.setCom51_1(rd_comunicacion7_1.getText().toString());
                             rd_comunicacion7_2.setEnabled(false);
                             rd_comunicacion7_3.setEnabled(false);
                             rd_comunicacion4_1.setEnabled(false);
@@ -165,15 +174,17 @@ public class Comunicacion10Activity extends AppCompatActivity {
                         rd_comunicacion6_2.setEnabled(true);
                     }
                         break;
-                    case R.id.rd19_C4_2:
+                    case R.id.rd17_C4_2:
                         if (rd_comunicacion7_2.isChecked()){
+                            Variables.setCom51_2(rd_comunicacion7_2.getText().toString());
                             rd_comunicacion4_2.setEnabled(false);
                             rd_comunicacion5_2.setEnabled(false);
                             rd_comunicacion6_2.setEnabled(false);
                             rd_comunicacion7_3.setEnabled(false);
                         }
                         break;
-                    case R.id.rd19_C4_3:
+                    case R.id.rd17_C4_3:
+                        Variables.setCom51_3(rd_comunicacion7_3.getText().toString());
                         break;
                 }
             }

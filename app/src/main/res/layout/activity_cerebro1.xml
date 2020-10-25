@@ -52,6 +52,7 @@
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
                     android:text="  Pregunta Numero 1"
+                    android:gravity="center"
                     android:textColor="@color/colorText"
                     android:textSize="20sp" />
 
@@ -166,32 +167,37 @@
                         <RadioButton
                             android:id="@+id/rdcerebro_1"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="1"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro_2"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="2"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro_3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="3"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro_4"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="4"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro_5"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="5"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                     </RadioGroup>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -220,6 +226,7 @@
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
                     android:text="  Pregunta Numero 2"
+                    android:gravity="center"
                     android:textColor="@color/colorText"
                     android:textSize="20sp" />
 
@@ -334,32 +341,37 @@
                         <RadioButton
                             android:id="@+id/rdcerebro2_1"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="1"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro2_2"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="2"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro2_3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="3"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro2_4"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="4"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro2_5"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="5"
+                            android:textSize="0sp"
+                            android:layout_height="wrap_content"/>
 
                     </RadioGroup>
                 </androidx.constraintlayout.widget.ConstraintLayout>
