@@ -395,6 +395,696 @@ public class Variables {
     private static String cereb8_3 = "";
     private static String cereb8_4 = "";
     private static String cereb8_5 = "";
+    ///-------PREGUNTA 9-----------------
+    private static String cereb9_1 = "";
+    private static String cereb9_2 = "";
+    private static String cereb9_3 = "";
+    private static String cereb9_4 = "";
+    private static String cereb9_5 = "";
+    ///-------PREGUNTA 10-----------------
+    private static String cereb10_1 = "";
+    private static String cereb10_2 = "";
+    private static String cereb10_3 = "";
+    private static String cereb10_4 = "";
+    private static String cereb10_5 = "";
+ ///-------PREGUNTA 11-----------------
+ private static String cereb11_1 = "";
+ private static String cereb11_2 = "";
+ private static String cereb11_3 = "";
+ private static String cereb11_4 = "";
+ private static String cereb11_5 = "";
+ ///-------PREGUNTA 12-----------------
+ private static String cereb12_1 = "";
+ private static String cereb12_2 = "";
+ private static String cereb12_3 = "";
+ private static String cereb12_4 = "";
+ private static String cereb12_5 = "";
+ ///-------PREGUNTA 13-----------------
+ private static String cereb13_1 = "";
+ private static String cereb13_2 = "";
+ private static String cereb13_3 = "";
+ private static String cereb13_4 = "";
+ private static String cereb13_5 = "";
+ ///-------PREGUNTA 14-----------------
+ private static String cereb14_1 = "";
+ private static String cereb14_2 = "";
+ private static String cereb14_3 = "";
+ private static String cereb14_4 = "";
+ private static String cereb14_5 = "";
+ ///-------PREGUNTA 15-----------------
+ private static String cereb15_1 = "";
+ private static String cereb15_2 = "";
+ private static String cereb15_3 = "";
+ private static String cereb15_4 = "";
+ private static String cereb15_5 = "";
+ ///-------PREGUNTA 16-----------------
+ private static String cereb16_1 = "";
+ private static String cereb16_2 = "";
+ private static String cereb16_3 = "";
+ private static String cereb16_4 = "";
+ private static String cereb16_5 = "";
+ ///-------PREGUNTA 17-----------------
+ private static String cereb17_1 = "";
+ private static String cereb17_2 = "";
+ private static String cereb17_3 = "";
+ private static String cereb17_4 = "";
+ private static String cereb17_5 = "";
+ ///-------PREGUNTA 18-----------------
+ private static String cereb18_1 = "";
+ private static String cereb18_2 = "";
+ private static String cereb18_3 = "";
+ private static String cereb18_4 = "";
+ private static String cereb18_5 = "";
+ ///-------PREGUNTA 19-----------------
+ private static String cereb19_1 = "";
+ private static String cereb19_2 = "";
+ private static String cereb19_3 = "";
+ private static String cereb19_4 = "";
+ private static String cereb19_5 = "";
+ ///-------PREGUNTA 20-----------------
+ private static String cereb20_1 = "";
+ private static String cereb20_2 = "";
+ private static String cereb20_3 = "";
+ private static String cereb20_4 = "";
+ private static String cereb20_5 = "";
+ ///-------PREGUNTA 21-----------------
+ private static String cereb21_1 = "";
+ private static String cereb21_2 = "";
+ private static String cereb21_3 = "";
+ private static String cereb21_4 = "";
+ private static String cereb21_5 = "";
+ ///-------PREGUNTA 22-----------------
+ private static String cereb22_1 = "";
+ private static String cereb22_2 = "";
+ private static String cereb22_3 = "";
+ private static String cereb22_4 = "";
+ private static String cereb22_5 = "";
+ ///-------PREGUNTA 23-----------------
+ private static String cereb23_1 = "";
+ private static String cereb23_2 = "";
+ private static String cereb23_3 = "";
+ private static String cereb23_4 = "";
+ private static String cereb23_5 = "";
+
+ public static String getCereb23_1() {
+  return cereb23_1;
+ }
+
+ public static void setCereb23_1(String cereb23_1) {
+  Variables.cereb23_1 = cereb23_1;
+ }
+
+ public static String getCereb23_2() {
+  return cereb23_2;
+ }
+
+ public static void setCereb23_2(String cereb23_2) {
+  Variables.cereb23_2 = cereb23_2;
+ }
+
+ public static String getCereb23_3() {
+  return cereb23_3;
+ }
+
+ public static void setCereb23_3(String cereb23_3) {
+  Variables.cereb23_3 = cereb23_3;
+ }
+
+ public static String getCereb23_4() {
+  return cereb23_4;
+ }
+
+ public static void setCereb23_4(String cereb23_4) {
+  Variables.cereb23_4 = cereb23_4;
+ }
+
+ public static String getCereb23_5() {
+  return cereb23_5;
+ }
+
+ public static void setCereb23_5(String cereb23_5) {
+  Variables.cereb23_5 = cereb23_5;
+ }
+
+ public static String getCereb21_1() {
+  return cereb21_1;
+ }
+
+ public static void setCereb21_1(String cereb21_1) {
+  Variables.cereb21_1 = cereb21_1;
+ }
+
+ public static String getCereb21_2() {
+  return cereb21_2;
+ }
+
+ public static void setCereb21_2(String cereb21_2) {
+  Variables.cereb21_2 = cereb21_2;
+ }
+
+ public static String getCereb21_3() {
+  return cereb21_3;
+ }
+
+ public static void setCereb21_3(String cereb21_3) {
+  Variables.cereb21_3 = cereb21_3;
+ }
+
+ public static String getCereb21_4() {
+  return cereb21_4;
+ }
+
+ public static void setCereb21_4(String cereb21_4) {
+  Variables.cereb21_4 = cereb21_4;
+ }
+
+ public static String getCereb21_5() {
+  return cereb21_5;
+ }
+
+ public static void setCereb21_5(String cereb21_5) {
+  Variables.cereb21_5 = cereb21_5;
+ }
+
+ public static String getCereb22_1() {
+  return cereb22_1;
+ }
+
+ public static void setCereb22_1(String cereb22_1) {
+  Variables.cereb22_1 = cereb22_1;
+ }
+
+ public static String getCereb22_2() {
+  return cereb22_2;
+ }
+
+ public static void setCereb22_2(String cereb22_2) {
+  Variables.cereb22_2 = cereb22_2;
+ }
+
+ public static String getCereb22_3() {
+  return cereb22_3;
+ }
+
+ public static void setCereb22_3(String cereb22_3) {
+  Variables.cereb22_3 = cereb22_3;
+ }
+
+ public static String getCereb22_4() {
+  return cereb22_4;
+ }
+
+ public static void setCereb22_4(String cereb22_4) {
+  Variables.cereb22_4 = cereb22_4;
+ }
+
+ public static String getCereb22_5() {
+  return cereb22_5;
+ }
+
+ public static void setCereb22_5(String cereb22_5) {
+  Variables.cereb22_5 = cereb22_5;
+ }
+
+ public static String getCereb19_1() {
+  return cereb19_1;
+ }
+
+ public static void setCereb19_1(String cereb19_1) {
+  Variables.cereb19_1 = cereb19_1;
+ }
+
+ public static String getCereb19_2() {
+  return cereb19_2;
+ }
+
+ public static void setCereb19_2(String cereb19_2) {
+  Variables.cereb19_2 = cereb19_2;
+ }
+
+ public static String getCereb19_3() {
+  return cereb19_3;
+ }
+
+ public static void setCereb19_3(String cereb19_3) {
+  Variables.cereb19_3 = cereb19_3;
+ }
+
+ public static String getCereb19_4() {
+  return cereb19_4;
+ }
+
+ public static void setCereb19_4(String cereb19_4) {
+  Variables.cereb19_4 = cereb19_4;
+ }
+
+ public static String getCereb19_5() {
+  return cereb19_5;
+ }
+
+ public static void setCereb19_5(String cereb19_5) {
+  Variables.cereb19_5 = cereb19_5;
+ }
+
+ public static String getCereb20_1() {
+  return cereb20_1;
+ }
+
+ public static void setCereb20_1(String cereb20_1) {
+  Variables.cereb20_1 = cereb20_1;
+ }
+
+ public static String getCereb20_2() {
+  return cereb20_2;
+ }
+
+ public static void setCereb20_2(String cereb20_2) {
+  Variables.cereb20_2 = cereb20_2;
+ }
+
+ public static String getCereb20_3() {
+  return cereb20_3;
+ }
+
+ public static void setCereb20_3(String cereb20_3) {
+  Variables.cereb20_3 = cereb20_3;
+ }
+
+ public static String getCereb20_4() {
+  return cereb20_4;
+ }
+
+ public static void setCereb20_4(String cereb20_4) {
+  Variables.cereb20_4 = cereb20_4;
+ }
+
+ public static String getCereb20_5() {
+  return cereb20_5;
+ }
+
+ public static void setCereb20_5(String cereb20_5) {
+  Variables.cereb20_5 = cereb20_5;
+ }
+
+ public static String getCereb17_1() {
+  return cereb17_1;
+ }
+
+ public static void setCereb17_1(String cereb17_1) {
+  Variables.cereb17_1 = cereb17_1;
+ }
+
+ public static String getCereb17_2() {
+  return cereb17_2;
+ }
+
+ public static void setCereb17_2(String cereb17_2) {
+  Variables.cereb17_2 = cereb17_2;
+ }
+
+ public static String getCereb17_3() {
+  return cereb17_3;
+ }
+
+ public static void setCereb17_3(String cereb17_3) {
+  Variables.cereb17_3 = cereb17_3;
+ }
+
+ public static String getCereb17_4() {
+  return cereb17_4;
+ }
+
+ public static void setCereb17_4(String cereb17_4) {
+  Variables.cereb17_4 = cereb17_4;
+ }
+
+ public static String getCereb17_5() {
+  return cereb17_5;
+ }
+
+ public static void setCereb17_5(String cereb17_5) {
+  Variables.cereb17_5 = cereb17_5;
+ }
+
+ public static String getCereb18_1() {
+  return cereb18_1;
+ }
+
+ public static void setCereb18_1(String cereb18_1) {
+  Variables.cereb18_1 = cereb18_1;
+ }
+
+ public static String getCereb18_2() {
+  return cereb18_2;
+ }
+
+ public static void setCereb18_2(String cereb18_2) {
+  Variables.cereb18_2 = cereb18_2;
+ }
+
+ public static String getCereb18_3() {
+  return cereb18_3;
+ }
+
+ public static void setCereb18_3(String cereb18_3) {
+  Variables.cereb18_3 = cereb18_3;
+ }
+
+ public static String getCereb18_4() {
+  return cereb18_4;
+ }
+
+ public static void setCereb18_4(String cereb18_4) {
+  Variables.cereb18_4 = cereb18_4;
+ }
+
+ public static String getCereb18_5() {
+  return cereb18_5;
+ }
+
+ public static void setCereb18_5(String cereb18_5) {
+  Variables.cereb18_5 = cereb18_5;
+ }
+
+ public static String getCereb15_1() {
+  return cereb15_1;
+ }
+
+ public static void setCereb15_1(String cereb15_1) {
+  Variables.cereb15_1 = cereb15_1;
+ }
+
+ public static String getCereb15_2() {
+  return cereb15_2;
+ }
+
+ public static void setCereb15_2(String cereb15_2) {
+  Variables.cereb15_2 = cereb15_2;
+ }
+
+ public static String getCereb15_3() {
+  return cereb15_3;
+ }
+
+ public static void setCereb15_3(String cereb15_3) {
+  Variables.cereb15_3 = cereb15_3;
+ }
+
+ public static String getCereb15_4() {
+  return cereb15_4;
+ }
+
+ public static void setCereb15_4(String cereb15_4) {
+  Variables.cereb15_4 = cereb15_4;
+ }
+
+ public static String getCereb15_5() {
+  return cereb15_5;
+ }
+
+ public static void setCereb15_5(String cereb15_5) {
+  Variables.cereb15_5 = cereb15_5;
+ }
+
+ public static String getCereb16_1() {
+  return cereb16_1;
+ }
+
+ public static void setCereb16_1(String cereb16_1) {
+  Variables.cereb16_1 = cereb16_1;
+ }
+
+ public static String getCereb16_2() {
+  return cereb16_2;
+ }
+
+ public static void setCereb16_2(String cereb16_2) {
+  Variables.cereb16_2 = cereb16_2;
+ }
+
+ public static String getCereb16_3() {
+  return cereb16_3;
+ }
+
+ public static void setCereb16_3(String cereb16_3) {
+  Variables.cereb16_3 = cereb16_3;
+ }
+
+ public static String getCereb16_4() {
+  return cereb16_4;
+ }
+
+ public static void setCereb16_4(String cereb16_4) {
+  Variables.cereb16_4 = cereb16_4;
+ }
+
+ public static String getCereb16_5() {
+  return cereb16_5;
+ }
+
+ public static void setCereb16_5(String cereb16_5) {
+  Variables.cereb16_5 = cereb16_5;
+ }
+
+ public static String getCereb13_1() {
+  return cereb13_1;
+ }
+
+ public static void setCereb13_1(String cereb13_1) {
+  Variables.cereb13_1 = cereb13_1;
+ }
+
+ public static String getCereb13_2() {
+  return cereb13_2;
+ }
+
+ public static void setCereb13_2(String cereb13_2) {
+  Variables.cereb13_2 = cereb13_2;
+ }
+
+ public static String getCereb13_3() {
+  return cereb13_3;
+ }
+
+ public static void setCereb13_3(String cereb13_3) {
+  Variables.cereb13_3 = cereb13_3;
+ }
+
+ public static String getCereb13_4() {
+  return cereb13_4;
+ }
+
+ public static void setCereb13_4(String cereb13_4) {
+  Variables.cereb13_4 = cereb13_4;
+ }
+
+ public static String getCereb13_5() {
+  return cereb13_5;
+ }
+
+ public static void setCereb13_5(String cereb13_5) {
+  Variables.cereb13_5 = cereb13_5;
+ }
+
+ public static String getCereb14_1() {
+  return cereb14_1;
+ }
+
+ public static void setCereb14_1(String cereb14_1) {
+  Variables.cereb14_1 = cereb14_1;
+ }
+
+ public static String getCereb14_2() {
+  return cereb14_2;
+ }
+
+ public static void setCereb14_2(String cereb14_2) {
+  Variables.cereb14_2 = cereb14_2;
+ }
+
+ public static String getCereb14_3() {
+  return cereb14_3;
+ }
+
+ public static void setCereb14_3(String cereb14_3) {
+  Variables.cereb14_3 = cereb14_3;
+ }
+
+ public static String getCereb14_4() {
+  return cereb14_4;
+ }
+
+ public static void setCereb14_4(String cereb14_4) {
+  Variables.cereb14_4 = cereb14_4;
+ }
+
+ public static String getCereb14_5() {
+  return cereb14_5;
+ }
+
+ public static void setCereb14_5(String cereb14_5) {
+  Variables.cereb14_5 = cereb14_5;
+ }
+
+ public static String getCereb11_1() {
+  return cereb11_1;
+ }
+
+ public static void setCereb11_1(String cereb11_1) {
+  Variables.cereb11_1 = cereb11_1;
+ }
+
+ public static String getCereb11_2() {
+  return cereb11_2;
+ }
+
+ public static void setCereb11_2(String cereb11_2) {
+  Variables.cereb11_2 = cereb11_2;
+ }
+
+ public static String getCereb11_3() {
+  return cereb11_3;
+ }
+
+ public static void setCereb11_3(String cereb11_3) {
+  Variables.cereb11_3 = cereb11_3;
+ }
+
+ public static String getCereb11_4() {
+  return cereb11_4;
+ }
+
+ public static void setCereb11_4(String cereb11_4) {
+  Variables.cereb11_4 = cereb11_4;
+ }
+
+ public static String getCereb11_5() {
+  return cereb11_5;
+ }
+
+ public static void setCereb11_5(String cereb11_5) {
+  Variables.cereb11_5 = cereb11_5;
+ }
+
+ public static String getCereb12_1() {
+  return cereb12_1;
+ }
+
+ public static void setCereb12_1(String cereb12_1) {
+  Variables.cereb12_1 = cereb12_1;
+ }
+
+ public static String getCereb12_2() {
+  return cereb12_2;
+ }
+
+ public static void setCereb12_2(String cereb12_2) {
+  Variables.cereb12_2 = cereb12_2;
+ }
+
+ public static String getCereb12_3() {
+  return cereb12_3;
+ }
+
+ public static void setCereb12_3(String cereb12_3) {
+  Variables.cereb12_3 = cereb12_3;
+ }
+
+ public static String getCereb12_4() {
+  return cereb12_4;
+ }
+
+ public static void setCereb12_4(String cereb12_4) {
+  Variables.cereb12_4 = cereb12_4;
+ }
+
+ public static String getCereb12_5() {
+  return cereb12_5;
+ }
+
+ public static void setCereb12_5(String cereb12_5) {
+  Variables.cereb12_5 = cereb12_5;
+ }
+
+ public static String getCereb9_1() {
+  return cereb9_1;
+ }
+
+ public static void setCereb9_1(String cereb9_1) {
+  Variables.cereb9_1 = cereb9_1;
+ }
+
+ public static String getCereb9_2() {
+  return cereb9_2;
+ }
+
+ public static void setCereb9_2(String cereb9_2) {
+  Variables.cereb9_2 = cereb9_2;
+ }
+
+ public static String getCereb9_3() {
+  return cereb9_3;
+ }
+
+ public static void setCereb9_3(String cereb9_3) {
+  Variables.cereb9_3 = cereb9_3;
+ }
+
+ public static String getCereb9_4() {
+  return cereb9_4;
+ }
+
+ public static void setCereb9_4(String cereb9_4) {
+  Variables.cereb9_4 = cereb9_4;
+ }
+
+ public static String getCereb9_5() {
+  return cereb9_5;
+ }
+
+ public static void setCereb9_5(String cereb9_5) {
+  Variables.cereb9_5 = cereb9_5;
+ }
+
+ public static String getCereb10_1() {
+  return cereb10_1;
+ }
+
+ public static void setCereb10_1(String cereb10_1) {
+  Variables.cereb10_1 = cereb10_1;
+ }
+
+ public static String getCereb10_2() {
+  return cereb10_2;
+ }
+
+ public static void setCereb10_2(String cereb10_2) {
+  Variables.cereb10_2 = cereb10_2;
+ }
+
+ public static String getCereb10_3() {
+  return cereb10_3;
+ }
+
+ public static void setCereb10_3(String cereb10_3) {
+  Variables.cereb10_3 = cereb10_3;
+ }
+
+ public static String getCereb10_4() {
+  return cereb10_4;
+ }
+
+ public static void setCereb10_4(String cereb10_4) {
+  Variables.cereb10_4 = cereb10_4;
+ }
+
+ public static String getCereb10_5() {
+  return cereb10_5;
+ }
+
+ public static void setCereb10_5(String cereb10_5) {
+  Variables.cereb10_5 = cereb10_5;
+ }
 
  public static String getCereb7_1() {
   return cereb7_1;

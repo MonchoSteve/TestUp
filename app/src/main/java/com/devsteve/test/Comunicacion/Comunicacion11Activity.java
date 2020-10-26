@@ -736,10 +736,10 @@ public class Comunicacion11Activity extends AppCompatActivity {
         }else if (comu47_1.isEmpty() == true && comu47_2.isEmpty() && comu47_3.isEmpty() && comu48_1.isEmpty()== true && comu48_2.isEmpty() && comu48_3.isEmpty()== true){
             Toast.makeText(this, "Test Colores de la Comunicacion, No deje campos vacios Pregunta 16", Toast.LENGTH_SHORT).show();
 
-        }else if (comu49.isEmpty()==true && comu50.isEmpty() && comu51.isEmpty() == true && comu49_1.isEmpty() && comu49_2.isEmpty() && comu49_3.isEmpty()== true){
+        }else if (comu49.isEmpty() && comu50.isEmpty() && comu51.isEmpty() && comu49_1.isEmpty() && comu49_2.isEmpty() && comu49_3.isEmpty()){
             Toast.makeText(this, "Test Colores de la Comunicacion, No deje campos vacios Pregunta 17", Toast.LENGTH_SHORT).show();
 
-        }else if (comu50_1.isEmpty() == true && comu50_2.isEmpty() && comu50_3.isEmpty() && comu51_1.isEmpty()== true && comu51_2.isEmpty() && comu51_3.isEmpty()== true){
+        }else if (comu50_1.isEmpty() && comu50_2.isEmpty() && comu50_3.isEmpty() && comu51_1.isEmpty() && comu51_2.isEmpty() && comu51_3.isEmpty()){
             Toast.makeText(this, "Test Colores de la Comunicacion, No deje campos vacios Pregunta 17", Toast.LENGTH_SHORT).show();
 
         }else if (comu52.isEmpty()==true && comu53.isEmpty() && comu54.isEmpty() == true && comu52_1.isEmpty() && comu52_2.isEmpty() && comu52_3.isEmpty()== true){
