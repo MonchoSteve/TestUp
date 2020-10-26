@@ -36,11 +36,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="16dp"
                 android:elevation="5dp"
                 android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -49,9 +48,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
-                    android:text="  Pregunta Numero 23"
+                    android:text="Pregunta Numero 23"
                     android:textColor="@color/colorText"
                     android:textSize="20sp" />
 
@@ -142,10 +142,10 @@
                         android:id="@+id/textView267"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
                         android:text="¿Logras transformar tus sueños e ideas en cosas concretas, realizaciones que progresan y duran?"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
-                        android:layout_marginBottom="10dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -192,6 +192,22 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </LinearLayout>
+
+            <Button
+                android:id="@+id/Btn_EnviarCerebro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="enviar"
+                android:textColor="@color/colorText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>

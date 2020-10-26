@@ -383,6 +383,98 @@ public class Variables {
     private static String cereb6_3 = "";
     private static String cereb6_4 = "";
     private static String cereb6_5 = "";
+    ///-------PREGUNTA 7-----------------
+    private static String cereb7_1 = "";
+    private static String cereb7_2 = "";
+    private static String cereb7_3 = "";
+    private static String cereb7_4 = "";
+    private static String cereb7_5 = "";
+    ///-------PREGUNTA 8-----------------
+    private static String cereb8_1 = "";
+    private static String cereb8_2 = "";
+    private static String cereb8_3 = "";
+    private static String cereb8_4 = "";
+    private static String cereb8_5 = "";
+
+ public static String getCereb7_1() {
+  return cereb7_1;
+ }
+
+ public static void setCereb7_1(String cereb7_1) {
+  Variables.cereb7_1 = cereb7_1;
+ }
+
+ public static String getCereb7_2() {
+  return cereb7_2;
+ }
+
+ public static void setCereb7_2(String cereb7_2) {
+  Variables.cereb7_2 = cereb7_2;
+ }
+
+ public static String getCereb7_3() {
+  return cereb7_3;
+ }
+
+ public static void setCereb7_3(String cereb7_3) {
+  Variables.cereb7_3 = cereb7_3;
+ }
+
+ public static String getCereb7_4() {
+  return cereb7_4;
+ }
+
+ public static void setCereb7_4(String cereb7_4) {
+  Variables.cereb7_4 = cereb7_4;
+ }
+
+ public static String getCereb7_5() {
+  return cereb7_5;
+ }
+
+ public static void setCereb7_5(String cereb7_5) {
+  Variables.cereb7_5 = cereb7_5;
+ }
+
+ public static String getCereb8_1() {
+  return cereb8_1;
+ }
+
+ public static void setCereb8_1(String cereb8_1) {
+  Variables.cereb8_1 = cereb8_1;
+ }
+
+ public static String getCereb8_2() {
+  return cereb8_2;
+ }
+
+ public static void setCereb8_2(String cereb8_2) {
+  Variables.cereb8_2 = cereb8_2;
+ }
+
+ public static String getCereb8_3() {
+  return cereb8_3;
+ }
+
+ public static void setCereb8_3(String cereb8_3) {
+  Variables.cereb8_3 = cereb8_3;
+ }
+
+ public static String getCereb8_4() {
+  return cereb8_4;
+ }
+
+ public static void setCereb8_4(String cereb8_4) {
+  Variables.cereb8_4 = cereb8_4;
+ }
+
+ public static String getCereb8_5() {
+  return cereb8_5;
+ }
+
+ public static void setCereb8_5(String cereb8_5) {
+  Variables.cereb8_5 = cereb8_5;
+ }
 
  public static String getCereb7() {
   return cereb7;

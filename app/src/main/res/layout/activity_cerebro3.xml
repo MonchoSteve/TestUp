@@ -167,27 +167,37 @@
                         <RadioButton
                             android:id="@+id/rdcerebro5_1"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textSize="0sp"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro5_2"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textSize="0sp"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro5_3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textSize="0sp"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro5_4"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textSize="0sp"/>
 
                         <RadioButton
                             android:id="@+id/rdcerebro5_5"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textSize="0sp"/>
 
                     </RadioGroup>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -332,31 +342,36 @@
                             android:id="@+id/rdcerebro6_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="1"
+                            android:textSize="0sp" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro6_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="2"
+                            android:textSize="0sp" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro6_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="3"
+                            android:textSize="0sp" />
 
                         <RadioButton
                             android:id="@+id/rd_cerebro6_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="4"
+                            android:textSize="0sp" />
 
                         <RadioButton
                             android:id="@+id/rdcerebro6_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:checked="false" />
+                            android:text="5"
+                            android:textSize="0sp" />
 
                     </RadioGroup>
                 </androidx.constraintlayout.widget.ConstraintLayout>
